@@ -1,0 +1,7 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+---
+
+Hi. I'm Raphael Knaus. Occasionally I do stuff. And recently I started talking about it.
