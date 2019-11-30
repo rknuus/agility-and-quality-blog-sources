@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Feature teams are cheaper and faster"
+date: 2019-11-30
+page-tags: [agile, short-read]
+---
+
+A key point of the book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] introduced in link:../../../2019/11/26/quintessence-of-software-development.html[Quintessence of (agile) software development] are feature teams: "Each handoff will require scheduling and cause delays." (<<Jef2015>>)
+
+In organizations with skill-based teams you need to manage dependencies between the teams. You have to split features into at least one piece per involved team and feed them with the right priority into the right backlogs. The need for management increases once inevitable delays occur (e.g. if F2 is delayed F3 can't be started).
+
+.dependencies of distributed features
+image::/images/post-images/teams-and-backlog-hierarchies.svg[dependencies of distributed features, 50%, align="center", title-align="center"]
+
+But won't feature teams suffer from delays? Let's assume a feature team experiences the same delaying events as a skill-based organization. The key difference is that the delays affect only a single team. True, they put the anticipated shipping date at risk. But some upsides are:
+
+- There are less ripple effects through the entire organization.
+- The communication overhead within a single team is considerably smaller than between multiple teams, because more manager levels means additional decision making delays.
+- Skill-based teams not immediately involved in a delay usually focus on their other business (e.g. team A would start another feature instead of F3) while feature teams will work on what matters most: resolving the issue.
+
+That's why feature teams make your organization cheaper and faster. Cheaper because of less overhead. Faster, because delays generally impact just a single team instead of the entire organization, minimizing dead time. And scaling simply means adding more feature teams. That's why feature teams make a lot of sense.
+
+== References
+
+- [[Jef2015]][Jef2015]: https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries
