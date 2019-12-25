@@ -1,7 +1,0 @@
----
-layout: post
-title: "Launch of Agile & Quality blog"
-date: 2019-11-24
----
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by http://jekyllrb.com[Jekyll] and I can use AsciiDoctor to author my posts. It actually is a lot easier than I thought it was going to be.

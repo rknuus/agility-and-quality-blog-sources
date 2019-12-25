@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the personal blog of mailto:rknuus@gmail.com[rknuus]. It covers topics related to agile software development and software quality inspired by books, talks, and podcasts.
+This is the personal blog of mailto:rknuus@gmail.com[rknuus]. It covers topics which I used to understand to a certain degree at some point in time. The topics are related to agile software development and software quality. Most topics are inspired by books, talks, and podcasts. I aim to keep 4 out of 5 articles short, let's say less than 256 words.
 
 Feedback is warmly welcome. But I decided against providing comments. So please send me an mailto:rknuus@gmail.com[email] instead. Thanks.
 

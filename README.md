@@ -19,6 +19,7 @@
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Jekyll plugins and versions supported by GitHub Pages](https://pages.github.com/versions/)
 - [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed)
+- [centering of image caption as described by Ted](https://discuss.asciidoctor.org/How-to-center-image-caption-when-the-image-is-centered-td901.html)
 
 ## Troubleshooting
 - [About Jekyll build errors for GitHub Pages sites](https://help.github.com/en/github/working-with-github-pages/about-jekyll-build-errors-for-github-pages-sites)
