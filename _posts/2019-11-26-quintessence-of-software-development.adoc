@@ -2,18 +2,24 @@
 layout: post
 title: "Quintessence of (agile) software development"
 date: 2019-11-26
+tags:
+  - agile
+  - book-review
+  - short-read
 ---
 
-After reading the book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries I am amazed %%TODO(KNR): term%%. I cannot believe how simple the act of developing a software product can be described. Apparently, Ron Jeffries figured out the essence of software development.
+After reading the book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries I am stunned. I cannot believe the simplicity in which the author describes the act of developing a software product. Apparently, Ron Jeffries figured out the essence of software development: Keep it simple, make it valuable, build it piece by piece.
 
-image::https://imagery.pragprog.com/products/363/rjnsd.jpg?1409862136[Nature of Software Development book cover, 50%]
+.source: https://pragprog.com
+image::https://imagery.pragprog.com/products/363/rjnsd.jpg?1409862136[Nature of Software Development book cover, 50%,align="center", title-align="center"]
 
-footnote:[source: https://pragprog.com]
+The book has only 100 pages with many pictures and uses blank space liberally. Even better, after reading half the book you covered the entire model. The second part is an FAQ and some parts might be skipped. This makes it a quick read.
 
-The book has only 100 pages with many pictures and uses blank space liberally. Even better, after reading half the book you covered the entire ground. The second part is an FAQ. Some of the answers are definitively helpful, but others might be skipped. This makes it a quick read.
+[.text-center]
+image:/images/post-images/noun_Stopwatch_1554793.svg[] image:/images/post-images/noun_Reading_38463.svg[]
 
-Certainly, the book is not perfect. When trying to explain certain aspects to work mates I struggled with concepts so much intertwined that they only make full sense together with the other concepts. But then, as it's a quick read and you want to understand the entire model, this doesn't matter, really.
+A question not answered by this book is how to turn product visions into features. This is particularly challenging for sets of related features and long-term objectives. To be fair, this question is not answered by the agile development literature I'm familiar with, in general. I'll cover one way to derive features from visions in an upcoming series of blog articles.
 
-A question not answered by this book is how to turn product visions into features. This is particuarly challenging for sets of related features and long-term objectives. To be fair this question is not answered by the agile development literature I'm familiar with in general. I'll cover one way to derive features from visions in an upcoming series.
+image::/images/post-images/noun_rating stars_292113.svg[align="center"]
 
-Still, the simplicity of the approach has changed my view and I find the clarity of thought inspiring. For these reasons I rate the book with 5 out of 5 starts. A highly recommended read. Enjoy!
+The simplicity of the approach has changed my view and I find the clarity of thought inspiring. For these reasons I rate the book with 5 out of 5 stars. A highly recommended read. Enjoy!
