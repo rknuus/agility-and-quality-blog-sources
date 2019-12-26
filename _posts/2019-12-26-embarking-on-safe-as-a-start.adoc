@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Embarking on SAFe &ndash; as a start"
+date: 2019-12-26
+page-tags: [agile, framework, process, short-read]
+---
+
+In late 2018 my organization embarked to https://www.scaledagileframework.com/[SAFe] (version 4.5). https://www.scaledagileframework.com/[SAFe] is about scaling agile development for organizations. https://www.scaledagileframework.com/[SAFe] is quite popular: 30% of organizations responding to the https://explore.versionone.com/state-of-agile/13th-annual-state-of-agile-report[13th Annual State Of Agile] survey follow it "most closely". But it is also controversial. Googling for _why SAFe is not agile_ resulted in ca. 47.5 million hits and Ron Jeffries in https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] (introduced in link:../../../2019/11/26/quintessence-of-software-development.html[Quintessence of (agile) software development]) argues that it's not necessary to scale agile development.footnote:[Read my take on this question in link:../../../2019/11/30/feature-teams-are-cheaper-and-faster.html[Feature teams are cheaper and faster]]
+
+image::/images/post-images/noun_debate_2939153.svg[align="center"]
+
+Dominik Berner, a former work mate concludes on his https://dominikberner.ch/getting-safed/[blog]: "while https://www.scaledagileframework.com/[SAFe] is not ideal in the long run it is a valid start for organizations just starting their agile journey". And I fully agree. Because I doubt it generally works to throw radically different agile ideas at "agility novices" (based on https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition[Dreyfus model of skill acquisition]), who want clear instructions.
+
+image::/images/post-images/noun_Checklist_1107533.svg[align="center"]
+
+The https://agilemanifesto.org/[agile manifesto] and "more agile" frameworks like https://en.wikipedia.org/wiki/Scrum_(software_development)[Scrum] keep things intentionally open in contrast to more prescriptive processes like https://en.wikipedia.org/wiki/Rational_Unified_Process[RUP]. But frameworks and processes need to be tailored. Without experience tailoring is a challenge. Which elements of https://en.wikipedia.org/wiki/Rational_Unified_Process[RUP] are not important and can be left away? Or what additional element is required to make https://en.wikipedia.org/wiki/Scrum_(software_development)[Scrum] work for your specific situation?
+
+image::/images/post-images/noun_knowledge_2743267.svg[align="center"]
+
+So I wonder how close https://www.scaledagileframework.com/[SAFe] gets to the sweet spot of a viable starting point. Being more specific than light-weight approaches while keeping certain aspects open.
+
+And I appeal to focus arguments, advice, and trainings on how to tailor processes and gradually move towards the https://agilemanifesto.org/[agile manifesto] principles and values instead of refusing https://www.scaledagileframework.com/[SAFe] as a matter of principle.
