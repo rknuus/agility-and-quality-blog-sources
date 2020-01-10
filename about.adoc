@@ -8,4 +8,6 @@ This is the personal blog of mailto:rknuus@gmail.com[rknuus]. It covers topics w
 
 Feedback is warmly welcome. But I decided against providing comments. So please send me an mailto:rknuus@gmail.com[email] instead. Thanks.
 
+Attribution of icons: https://thenounproject.com.
+
 This work is licensed under a https://creativecommons.org/licenses/by-nc/4.0/[creative Commons Attribution-NonCommercial 4.0 International License].
