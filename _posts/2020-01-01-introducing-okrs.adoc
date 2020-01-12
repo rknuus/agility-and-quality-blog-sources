@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Introducing OKRs"
+date: 2020-01-01
+page-tags: [agile, okr, long-read]
+---
+
+== How I got obsessed
+Our coach during my organization's transition to https://www.scaledagileframework.com/[SAFe] (see link:../../../2019/12/26/2019-12-26-embarking-on-safe-as-a-start.html[Embarking on SAFe &ndash; as a start]) introduced us to a goal setting approach called OKR which stands for _Objective_ and _Key Result_. The concept struck a chord with me and I began to study it.
+
+== Recommended literature
+As a deep-dive I read the book https://www.whatmatters.com/book[Measure What Matters] by John Doerr (<<whatmatters,[1]>>), followed by the white papers https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] (<<perdooguide,[2]>>) and https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] (<<googleplaybook,[3]>>). All three resources are recommended reads on which the following introduction is based.
+// My link:../../../2020/02/07/practical-okr-tips.html[Practical OKR tips] might be helpful to get started.
+
+== Purpose of OKRs
+OKRs are supposed to make a difference, to push for ambitious ideas. So OKRs not for business as usual.footnote:[That's why I struggle to understand the point of "committed OKRs" in https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook].] That's why OKRs are not just KPIs (see <<okrvskpi,[4]>>).
+
+Aiming high increases chances of failure. But that's fine! Because every a step in the right direction is a success, whether you reach the goal or not. And only if you set ballsy goals you open your mind for ideas so bold you wouldn't dare to think of them otherwise.
+
+OKRs work for entire organizations, teams, but also on individual level. By linking team OKRs to organization OKRs and individual OKRs to team and/or individual OKRs they align organizations. In this case I recommend to use OKRs strictly for organizational goals, but not for personal development. That's why OKRs don't work well for MBO (Management By Objective, see <<okrvsmbo,[5]>>).
+
+In the spirit of Churchill's quote "Plans are of little importance, but planning is essential." OKRs provide a north star, but are not meant to be followed by the letter if circumstances change.
+
+== OKRs in a nutshell
+https://www.whatmatters.com/book[Measure What Matters] and https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] define _Objectives_ as the "What" and _Key Results_ as the "How". _Objectives_ "express goals and intent" (<<googleplaybook,[3]>>), while _Key Results_ are unambiguous measurements showing whether you are moving towards or whether you have reached the goal.
+
+Personally I find the metaphor used in https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] even more helpful: _Objectives_ answer "where you need to go" (<<perdooguide,[2]>>) by setting a clear goal and a general direction (e.g. when starting in London, the goal New York City implies the westwards as general direction), while _Key Results_ are like a GPS device telling you the current position. By comparing the current position to the goal we can see whether we are moving and adjust the concrete direction we should take.
+
+Given an _Objective_ plus measurable indicators of progress and completion in the form of _Key Results_, https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] is the clearest what to do next: define _Initiatives_. _Initiatives_ are activities that probably get you closer to an _Objective_ (e.g. "buy a sailboat" and "sail west for 8 days"). If an _Initiative_ doesn't work (e.g. if you are stuck in a calm a sailboat is of no use) the _Key Results_ will tell you soon. Then you can decide whether to continue, to drop the _Initiative_ in favour of another one, or even to change the OKR.
+
+== Traits of OKRs
+OKRs apply on multiple levels and with different time scopes:
+
+- Spanning multiple years OKRs can capture the organization vision & mission.
+- Strategic organizational OKRs are usually defined for one year.
+- Tactical team & individual OKRs often serve for three months.
+// footnote:[My link:../../../2020/02/07/practical-okr-tips.html[Practical OKR tips] cover the question when tactical OKRs resp. individual OKRs make sense.]
+
+Because OKRs have specific time scopes they should always be time-bound. https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] contains concrete suggestions what to do if an OKR is due, depending on the achievement and the type of OKR.
+
+It obviously doesn't make sense to define goals just on a single organizational level. That's why a set of OKRs can be organized in trees. Each child OKR is a shorter-term and/or more concrete step towards the parent OKR. For instance if multiple teams work on the same product or on the same epic, then each team has team-specific OKRs derived from common parent OKRs. Personally I prefer the take of https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] to define specific _Objectives_ on each level over the one in https://www.whatmatters.com/book[Measure What Matters], where parent _Key Results_ serve as _Objectives_ on the level below.
+
+Two key idea of OKRs I find particularly compelling:
+
+- OKRs are by no means just meant for top-down goal-setting. At individual level https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] recommends to keep top-down goals in balance with bottom-up goals. At team level most goals should be in-line with organizational goals. But it's no big deal if that's not the case. Because unaligned goals will stand out, which means you can have a conversation about them. Besides rejecting the team goal it might point out an opportunity that was missed when defining the parent OKRs and the team OKR should be promoted to an organization OKR. Or it's OK to accept an unaligned goal for specific reasons.
+- _Key Results_ measure outcome. This indicates how pointless it would be to follow an _Initiative_ even if it becomes obvious that it's the wrong approach. It's a common beginners mistake to add _Initiatives_ as _Key Results_. Or perhaps the situation has changed and a _Key Result_ or even an _Objective_ doesn't make sense anymore. Then the OKR system shines, because anytime you gain information you are free to change, replace, or drop _Initiatives_, _Key Results_, or even _Objectives_.
+
+== Principles behind OKRs
+https://www.whatmatters.com/book[Measure What Matters] is organized around the following "superpowers" (<<whatmatters,[1]>>):
+
+1. Focus and Commit to Priorities
+2. Align and Connect for Teamwork
+3. Track for Accountability
+4. Stretch for the Amazing
+
+By setting at most five goals you can stop juggling dozens of "priorities" and focus on what matters most. The most powerful way to avoid wasting time, energy, and money on less relevant ideas is to say "no". Continuously asking whether an acitivity is helping to make progress towards at least one goal helps to weed out irrelevant tasks. Beware, however, that the strongly focused OKRs include implied goals: "If my objective is to grow a beautiful rose bush, I know without asking that you also want me to keep the lawn green." (<<whatmatters,[1]>>)
+
+Defining common goals is important. Only if people see how they can contribute towards the bigger long-term organizational goals they consider their work to be meaningful. This increases their intrinsic motivation. And obviously it's more effective if the entire organization pushes towards aligned goals.
+
+Transparency is critical. The measurements of _Key Results_ are instrumental to an assessment as objectively as possible. Particularly if things don't go as planned, be honest and publish the current state, anyways. Companies like <<publicokrs,GitLab>> take it so far to publish their OKR hierarchies including the CEO's OKRs on the internet. This way everybody becomes fully accountable.
+
+Aiming high means that chances of failure are higher. This only works if you have the necessary psychological safety, that you can take risks without being afraid of consequences. https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] targets a success rate of 70% with high variance. But it also means that you can tap the full potential of your organization. https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] puts it like this: "What could my [or my customers'] world look like in several years if we were freed from most constraints?"
+
+== Remember, it's just a tool
+Setting goals is an art. It can easily go wrong. A Harvard Business School article lists several bad side effects: "a rise in unethical behavior, over-focus on one area while neglecting other parts of the business, distorted risk preferences, corrosion of organizational culture, and reduced intrinsic motivation" (<<goalsgonebad>>,[8]). Indeed, human history contains many examples of goal setting taken too far.
+
+That's why it's crucial to balance OKRs, e.g. including quantitative as well as qualitative ones like "achieve a world first, keeping everybody alive and happy". Another key is to focus on outcome instead of output and to continuously verify whether _Key Results_ and _Objectives_ still make sense.
+
+Organizations can be quite different. What works in one organization might not work for another one. Because there is not just one right way of using OKRs, get started based on an existing approach you like. Then tailor it to your needs.
+
+== References
+- [[whatmatters]][1]: https://www.whatmatters.com/book[Measure What Matters] by John Doerr
+- [[perdooguide]][2]: https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs]
+- [[googleplaybook]][3]: https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook]
+- [[okrvskpi]][4]: https://www.perdoo.com/resources/okr-vs-kpi/[OKR vs. KPI: How they compare and how they work together]
+- [[okrvsmbo]][5]: https://www.whatmatters.com/resources/okr-and-mbo-difference-between[OKRs and MBOs: What's the difference?]
+- [[canvas]][6]: https://medium.com/yousefghandour/okrs-brainstorming-canvas-c1b6e5f650a7[OKRs Brainstorming Canvas]
+- [[publicokrs]][7]: https://about.gitlab.com/company/okrs/[GitLab's OKRs]
+- [[goalsgonebad]][8]: https://hbswk.hbs.edu/item/when-goal-setting-goes-bad[When Goal Setting Goes Bad]
