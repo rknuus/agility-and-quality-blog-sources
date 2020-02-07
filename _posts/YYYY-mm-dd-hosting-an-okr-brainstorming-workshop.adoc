@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Hosting an OKR Brainstorming Workshop"
+date: YYYY-mm-dd
+page-tags: [quality, software architecture, definition, short-read]
+---
+
+- use <<canvas,OKRs Brainstorming Canvas>> to discover goals and elaborate OKRs
+  - prefer lead measures over lag measures, because lead measures can tell you whether you are moving right from the beginning on
+  - defining _Key Results_ is a challenge the first few times, just define the best ones you can for now and move on, you can change them if necessary along the way

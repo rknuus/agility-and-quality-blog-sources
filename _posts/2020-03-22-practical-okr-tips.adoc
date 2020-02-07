@@ -1,0 +1,119 @@
+---
+layout: post
+title: "Practical OKR tips"
+date: 2020-03-22
+page-tags: [agile, okr, long-read]
+---
+
+== Our first attempt
+Our first attempt to use OKRs in my organization was not particularly successful. We defined organization-wide OKRs, then we derived OKRs for sub-organizational structures, and we worked out many individual OKRs. But we stopped there. We didn't invest in measuring the _Key Results_. We didn't make all the OKRs transparent. And we didn't discuss them on a regular basis.
+
+== What we learned for our second attempt
+Our second attempt is based on several concrete ideas, mainly extracted from  <<whatmatters,Measure What Matters>>.
+
+=== Start small
+Going full scale while making the first steps with a new tool like OKRs is like hosting a dinner party for 50 prominent guests without having cooked for your family a single time.
+
+image::/images/post-images/noun_sprout_445566.svg[align="center"]
+
+That's why it makes sense to kick-off a Community of Practice (CoP) built of a dozen or so volunteers. Let this CoP experiement with ideas and exercise the application of OKRs. Meet on a regular basis, exchange experiences and build your set of good practices you want to share with the entire organization once you scale up like an <<create-a-checklist,OKR checklist>>.
+
+=== Nominate a shepherd
+Defining goals can be easy. Specifying measurements can be trickier. But the real challenge is to follow through, to run the measurements, to review them, and to keep the up to date.
+
+image::/images/post-images/noun_shepherd_1974919.svg[align="center"]
+
+That's why it immensely helps to have someone taking care of nudging everybody to keep timelines and to keep track of measurements. I like to think of the first measurement as the first _Initiative_. The shepherd proactively approaches people to share their OKR ideas, provides feedback how to improve OKRs (e.g. to balance quantitative with qualitative _Key Results_), and if necessary sanctions laggards.
+
+=== Create a checklist
+Changes are, your first OKRs are overly ambitious. Two reasons for this are:
+
+- Someone points out that doing a step towards the right direction is already an achievement.
+- Others struggle to think out of the box, which becomes necessity when being ambitious.
+
+Another common trap is to define tasks as _Key Results_. Sure, a completed task looks like you have achieved a milestone and you have made progress. But typically if you would stop there, there would be no outcome and no value without completing at least one additional task. Tasks are _Initiatives_ and don't work as _Key Results_ (see section "What Everyone Gets Wrong About Key Results" in https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs]).
+
+image::/images/post-images/noun_Checklist_450368.svg[align="center"]
+
+That's why it makes sense to create a checklist and apply it to your OKRs, gradually adapting the checklist to your needs. <<my-organizations-okr-checklist>> might provide a starting point.
+
+=== Optimize transparency, minimize hurdles
+Transparency trumps. If you want OKRs to be discussed by most organization members at least on a weakly basis they need to be easily accessible. And simple to manage. Even though the simplest possible solution to keep track of OKRs is a central spreadsheet, invite the CoP to evaluate different OKR tools.
+
+[.text-center]
+image:/images/post-images/noun_mirror_1579392.svg[] image:/images/post-images/noun_barrier_901263.svg[]
+
+Our tool evaluation criteria were mostly usability: Does the tool provide a good overview of all OKRs and make it simple to link them? How easy is it to enter and update OKRs? Can you import _Key Results_ measurements from a spreadsheat or update them by API calls?
+
+=== Celebrate success
+Whenever someone makes significant progress this deserves public appreciation. That's why it makes sense to test some ideas how to celebrate success before scaling OKRs to the entire organization.
+
+image::/images/post-images/noun_celebrate_2788745.svg[align="center"]
+
+You might even use the opportunity to turn the negative conotation of failure to the positive by celebrating learnings, changing the culture of your organization to embrace experiments, take risks, and continuously learn.
+
+== My organization's OKR checklist
+Our checklist is compiled based on:
+
+- https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs]
+- https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook]
+
+=== _Objective_ checklist
+._Objective_ checklist
+[%header]
+|===
+| Item | Litmus test
+| committed vs. aspirational | Is it OK to drag O into next year? +
+Most O's should be aspirational
+| directional | Does it break out of status quo?
+| objective | Is it obvious when goal is achieved?
+| aligned | Does it support organization mission & vision?
+| high impact, *not* business-as-usual | Is it a substantial step forward? +
+Think what customers need, *not* what we can do
+| high value, *not* nobody cares | Cannot achieve it w/o clear economic value for organization.
+| clear motivation | Would granny understand why?
+| inspirational, *not* timid +
+*not* sandbagging (aspirational) | How would ideal world look in N years w/o most constraints? +
+Would you put it on your resume?
+| understandable & tangible | Would granny get it? +
+Is it unambiguous? Just 1 line
+| within circle of influence | Are you able to do something about it?
+| realistic | Is there a chance to make a significant step? +
+Can someone show a way how it could be possible?
+| *not* measurable | Numbers belong into KRs.
+| insufficient KRs for O | If all KRs score 100% is O perfectly fulfilled?
+| time-bound | Does it have a start & end date?
+| right amount | 1 - 4
+|===
+
+=== _Key Result_ checklist
+._Key Result_ checklist
+[%header]
+|===
+| Item | Litmus test
+| high impact, *not* business-as-usual | Is it a substantial step towards Objective?
+| ambitious | Does it make you feel a little uncomfortable? +
+Is it 30% - 40% above what deems possible?
+| measurable & evidence of completion | Yes/no (boolean) or countable (number), link to data sources.
+| measurement method | Could granny measure it?
+| within circle of influence | Are you able to do something about it?
+| *not* an initiative | Does it define outcomes, not activities? +
+Take view of end-user.
+| time-bound | Does it have a start & end date?
+| right amount | 1 - 5
+|===
+
+=== _Initiative_ checklist
+._Key Result_ checklist
+[%header]
+|===
+| Item | Litmus test
+| measurable | Yes/no (boolean) or countable (number).
+| specific | Do you know what to do? +
+*not* vague. Unambiguous verb (e.g. write, visit, ...). Clearly defined scope
+| within circle of influence | Are you able to do something about it?
+| within control | No external dependencies. +
+Full power over accomplishing it.
+| time-bound | Does it have a start & end date?
+| right amount | 1+
+|===
