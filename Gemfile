@@ -8,11 +8,11 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-# use Jekyll like GitHub to avoid unexpected differences
-gem "github-pages", group: :jekyll_plugins
+gem "bundler"
+
+gem 'jekyll', '~> 3.8.5'
+gem 'coderay', '~> 1.1.0'
 
 group :jekyll_plugins do
- gem 'jekyll-asciidoc', "~> 2.1"
+  gem 'jekyll-asciidoc', '~> 2.1.1'
 end
-
-gem "bundler"
