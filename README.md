@@ -1,8 +1,3 @@
-# To do
-- clean up CSS files: either in folder css or in assets
-- try different themes
-- study https://jekyllrb.com/docs/github-pages/#project-page-url-structure
-
 # Posting Instructions
 
 # Testing
@@ -13,9 +8,10 @@
 
 # References
 - [Blog Backlog](https://trello.com/b/BPfN97cY/agile-quality-blog)
-- [GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [GitHub Pages demo](http://jmcglone.com/guides/github-pages/)
-- [GitHub Pages demo sources](https://github.com/hankquinlan/hankquinlan.github.io)
+- [GitHub Actions documentation](https://help.github.com/en/actions/automating-your-workflow-with-github-actions)
+- [Jekyll action (forked)](https://github.com/rknuus/jekyll-action)
+  - [original](https://github.com/marketplace/actions/jekyll-action)
+- [Creating and using encrypted secrets (GitHub Actions)](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Jekyll plugins and versions supported by GitHub Pages](https://pages.github.com/versions/)
 - [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed)
