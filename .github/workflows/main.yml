@@ -10,5 +10,3 @@ jobs:
     steps:
       - name: Jekyll Action
         uses: helaili/jekyll-action@1.0
-        secrets:
-          - "JEKYLL_PAT"
