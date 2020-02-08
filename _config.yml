@@ -22,6 +22,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-asciidoc
+asciidoc: {}
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
