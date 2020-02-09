@@ -1,0 +1,20 @@
+---
+layout: post
+title: "The problem with Software Quality"
+date: 2020-02-09
+page-tags: [quality, short-read]
+---
+
+Before I started my research on Software Quality I defined a couple of criteria a good definition of Software Quality should fulfil:
+
+- The definition should be _simple_ so that all involved people can understand it, not just software engineers.
+- Ideally it makes sense _intuitively_ because I want it to be helpful in complex cases.
+- And it should be _flexible_. Different products have different requirements. A good definition works reasonably well for most products.
+
+link:https://en.wikipedia.org/wiki/Software_quality[Wikipedia] provides a collection of different definitions, among others one by link:https://en.wikipedia.org/wiki/CISQ[CISQ] based on the ISO 25000:2005 quality model called link:http://www.iso.org/iso/catalogue_detail.htm?csnumber=35733[SQuaRE], consisting of five quality-attribute-like "major characteristics". Without having spent several hundres of US dollars for the ISO standard and without having read it, the standard looks complicated. Perhaps it is flexible, but doesn't feel particularly intuitive.
+
+When I read "quality is a perceptual, conditional and somewhat _subjective_ attribute and may be _understood differently by different people_" (link:https://en.wikipedia.org/wiki/Software_quality[Wikipedia]) I began to understand why Software Quality is such a challenging topic. Naively I originally assumed that there would be a small set of widely-accepted principles like link:https://en.wikipedia.org/wiki/SOLID[SOLID] for object-oriented programming.
+
+The situation gets worse when we try to measure Software Quality. Measurements feel objective, even though the measured topic might be subjective. So I gave up on a Software Quality definition. Giving up on Software Quality itself is not an option. It's too important a topic.
+
+In a future article I'll present a Software Quality model aiming to address my criteria. Stay tuned.
