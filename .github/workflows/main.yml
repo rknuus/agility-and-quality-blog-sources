@@ -8,5 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+        with:
+          ref: master
       - name: Jekyll Action
         uses: rknuus/jekyll-action@bugfix/bundler-error
