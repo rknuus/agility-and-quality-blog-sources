@@ -14,3 +14,6 @@ jobs:
           ref: master
       - name: Jekyll Action
         uses: rknuus/jekyll-action@bugfix/bundler-error
+        env:
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+          PUBLISH_REPO: rknuus/rknuus.github.io
