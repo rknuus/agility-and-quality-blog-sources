@@ -6,7 +6,7 @@ page-tags: [agile, okr, long-read]
 ---
 
 == How I got obsessed
-Our coach during my organization's transition to https://www.scaledagileframework.com/[SAFe] (see link:../../../2019/12/26/2019-12-26-embarking-on-safe-as-a-start.html[Embarking on SAFe &ndash; as a start]) introduced us to a goal setting approach called OKR which stands for _Objective_ and _Key Result_. The concept struck a chord with me and I began to study it.
+Our coach during my organization's transition to https://www.scaledagileframework.com/[SAFe] (see link:../../../2019/12/26/embarking-on-safe-as-a-start.html[Embarking on SAFe &ndash; as a start]) introduced us to a goal setting approach called OKR which stands for _Objective_ and _Key Result_. The concept struck a chord with me and I began to study it.
 
 == Recommended literature
 As a deep-dive I read the book https://www.whatmatters.com/book[Measure What Matters] by John Doerr (<<whatmatters,[1]>>), followed by the white papers https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] (<<perdooguide,[2]>>) and https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] (<<googleplaybook,[3]>>). All three resources are recommended reads on which the following introduction is based.
