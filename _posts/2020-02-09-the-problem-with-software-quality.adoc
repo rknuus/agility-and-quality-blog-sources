@@ -23,4 +23,5 @@ The situation gets worse when we try to measure Software Quality. Measurements f
 
 image::/images/post-images/noun_confused_1011321.svg[align="center"]
 
-In a future article I'll present a Software Quality model aiming to address my criteria. Stay tuned.
+%%TODO(KNR): add link
+In a future article I'll present a Software Quality definition aiming to address my criteria and a model to reason about the quality of a concrete product.
