@@ -1,0 +1,72 @@
+---
+layout: post
+title: "Yet another Joel Test"
+date: 2020-02-22
+page-tags: [agility, long-read]
+---
+
+== The original test
+Probably you know link:https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/[The Joel Test]. Based on 12 simple questions it was designed to measure the quality of a software team, but it also tells a lot about the culture of the organization the software team is working for. So assessing it is useful if you consider to apply for a job at that organization.
+
+== The test revisited
+The https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/[Joel Test] is almost 20 years old. There are new takes on the test like link:https://dev.to/checkgit/the-joel-test-20-years-later-1kjk[The Joel Test: 20 Years Later], slightly refining some questions and adding a 13th one. The conclusion is that the test is still relevant.
+
+=== Addendum: 14. Do you identify flaky tests and instable infrastructure
+An addendum related to the engineering culture I'd like to add is the evaluation of the reliability of the tests and the infrastructure (e.g. the build server). It's easy to setup CI/CD to work a few times, but if the result is not almost perfectly reliable, what's the point of CI/CD?!
+
+== A personal take
+Besides a reasonable link:https://dev.to/checkgit/the-joel-test-20-years-later-1kjk[extended Joel Test] score my personal criteria for a decent job are:
+
+- Is it interesting, so that I'd enjoy work?
+- Is the team highly qualified, so that I'd learn on a regular basis?
+- Can I relate my daily work to the larger organization goals, increasing my intrinsic motivation?
+
+The first one is probably easy to answer, because that's what interviewees usually focus on. For the other two I suggest the following tests. 
+
+== Assess team qualification
+=== 15. Do some team members attend & present at public conferences?
+There are too many link:https://www.hanselman.com/blog/DarkMatterDevelopersTheUnseen99.aspx[Dark Matter Developers]. They focus on getting things done. Obviously, that's good. But they also don't read many blogs, attend conferences, or local meetups. This keeps them trapped in their bubble forever. That's why I want to have at least some explorative minds in your team.
+
+=== 16. Do you run internal knowledge sharing sessions?
+Equally important as exchanging with the world outside your organization is to learn from each other. You can do traditional talks or present interesting content in the format of link:https://www.fluentcpp.com/dailycpp/[Dailies]. You can also watch recorded talks and discuss the implications on your work. It can be as simple as ordering pizza and drinks for everybody and hosting a lunch & learn.
+
+=== 17. Do you do code reviews?
+Code reviews sometimes are used to ensure quality. I prefer to think of code reviews primarily as an exchange of knowledge. The reviewers learn what has changed recently, and the author learns possible improvements suggested by the reviewers. I believe reviews are crucial to avoid knowledge silos.
+
+== Relate daily work to larger goals
+=== 18. Does your organization have a vision & mission?
+Almost every organization has a vision and/or mission statement. Sometimes the vision & mission perfectly matches what you would like to do. Other times they look artificial. In any case it should be interesting to ask blue collar workers about their opinion on the organization's vision & mission.
+
+=== 19. Do you have a team vision & mission and is it related to the organization vision & mission?
+According to https://www.whatmatters.com/book[Measure What Matters] by John Doerr: "Contributors are most engaged when they can actually see how their work contributes to the company’s success." If your work feels meaningful, if your contribution clearly has a purpose, your intrinsic motivation raises. The interesting question is whether the team vision & mission is explicitly articulated and whether everybody agrees on it.
+
+=== 20. Do you measure by how much you reach organizational & team goals?
+Setting goals (e.g. as link:../../../2020/01/01/introducing-okrs.html[OKRs]) is not easy but also not impossible. The next step is even harder: to measure outcome. Multiple organization I worked with did bi-annual performance evaluations, where you just had to provide convincing arguments why you didn't do what you planned to do a year ago. So it was highly subjective. I prefer less hand-wavy ways to evaluate whether goals are met. It's not the end of the world to not fully achieve a goal (see below). So let's be honest about it. 
+
+=== 21. Do you celebrate failure?
+Nobody is perfect. That's why no one in his right mind expects constant success. But how do you deal with failures? Do you play the blame game, do you begin to sandbag and underpromise? Are you put under increasing pressure, because the delivery date must be held?
+
+Or are you perfectly allowed to fail? Are you encouraged to risk something? Do you keep risks managable by running small experiments? And do you learn from failures?
+
+== Checklist
+1. Do you use Git, or some lesser source control system?
+2. Can you build and release in one step?
+3. Do you build and test before merging to master?
+4. Do you have a bug database?
+5. Do you ensure highest quality of new & changed code, and do you refactor the most buggy components before others?
+6. Do you have an up-to-date schedule?
+7. Do you write a spec before writing code?
+8. Do programmers have quiet working conditions free of interruptions?
+9. Do you use the best development tools money can buy?
+10. Do you have human testers?
+11. Do you do automated testing?
+12. Do new candidates write code as part of the hiring process?
+13. Do you watch people actually try to use your software?
+14. Do you identify flaky tests and instable infrastructure?
+15. Do some team members attend & present at public conferences?
+16. Do you run internal knowledge sharing sessions like lunch & lurn?
+17. Do you do code reviews?
+18. Does your organization have a vision & mission?
+19. Do you have a team vision & mission and is it related to the organization vision & mission?
+20. Do you measure by how much you reach organizational & team goals?
+21. Do you celebrate failure?
