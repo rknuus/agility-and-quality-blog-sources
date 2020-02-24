@@ -20,7 +20,7 @@ jobs:
         id: lc
         uses: peter-evans/link-checker@v1.2.0
         with:
-          args: -v -r _site
+          args: -v -r _site -d _site
       - name: Fail if there were link errors
         if: steps.lc.outputs.exit_code != 0
         run: echo "Link check failed!" && exit 1
