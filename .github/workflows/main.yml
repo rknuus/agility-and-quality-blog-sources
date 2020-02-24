@@ -4,9 +4,7 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
@@ -17,3 +15,11 @@ jobs:
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
           PUBLISH_REPO: rknuus/rknuus.github.io
+          BUILD_DIR: _site
+      - name: Link Checker
+        id: lc
+        uses: peter-evans/link-checker@v1.2.0
+        with:
+          args: -v -r _site
+      - name: Fail if there were link errors
+         run: exit ${{ steps.lc.outputs.exit_code }}
