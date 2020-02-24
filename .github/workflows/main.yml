@@ -22,7 +22,7 @@ jobs:
         with:
           # NOTE(KNR): don't check index.html, as it's generated and because
           # jekyll doesn't add .html extension to blog article links
-          args: -v -r _site -d _site -x _site/index.html
+          args: -v -r _site -d _site -x index.html
       - name: Fail if there were link errors
         if: steps.lc.outputs.exit_code != 0
         run: echo "Link check failed!" && exit 1
