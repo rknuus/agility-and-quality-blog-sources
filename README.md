@@ -13,6 +13,7 @@
 - it used to be based on Travis CI, but was migrated to GitHub Actions recently
 - the Jekyll GitHub Action from the marketplace doesn't work out of the box
   - this is why I forked it and adjusted it to my needs until I upstreamed the fixes and findings
+- [link check action](https://github.com/marketplace/actions/link-checker) is based on [liche](https://github.com/raviqqe/liche)
 
 # How to set it up
 - create a new project on GitHub
