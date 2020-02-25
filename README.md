@@ -7,13 +7,17 @@
 - `bundle update` to make sure the local Jekyll installation is in sync with GitHub Pages
 - `bundle exec jekyll serve`, then open http://127.0.0.1:4000 in your browser
 - run feed through [feed validator](http://www.feedvalidator.org/check.cgi?url=https%3A%2F%2Frknuus.github.io%2Ffeed.xml)
+- to check links locally:
+  - `npm install broken-link-checker -g`
+  - `bundle exec jekyll serve`
+  - `blc http://127.0.0.1:4000 -ro`
 
 # How it works
 - because GitHub Pages only support a limited set of Jekyll plugins (e.g. asciidoc, but not asciidoctor) we use a customized publishing workflow
 - it used to be based on Travis CI, but was migrated to GitHub Actions recently
 - the Jekyll GitHub Action from the marketplace doesn't work out of the box
   - this is why I forked it and adjusted it to my needs until I upstreamed the fixes and findings
-- [link check action](https://github.com/marketplace/actions/link-checker) is based on [liche](https://github.com/raviqqe/liche)
+- using URL-based [link check action](https://github.com/marketplace/actions/broken-link-check)
 
 # How to set it up
 - create a new project on GitHub
