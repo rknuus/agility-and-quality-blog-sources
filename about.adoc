@@ -10,4 +10,6 @@ Feedback is warmly welcome. But I decided against providing comments. So please 
 
 Attribution of icons: https://thenounproject.com.
 
+CSS theme: Copyright (c) 2016 Darshan Soni under https://github.com/darshandsoni/asciidoctor-skins/blob/gh-pages/LICENSE[The MIT License (MIT)]
+
 This work is licensed under a https://creativecommons.org/licenses/by-nc/4.0/[creative Commons Attribution-NonCommercial 4.0 International License].
