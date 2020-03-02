@@ -10,6 +10,8 @@ jobs:
         uses: actions/checkout@v1
         with:
           ref: master
+      - name: Check if unresolved TODOs
+        run: ./scripts/check-todos-solved.sh
       - name: Jekyll Action
         uses: rknuus/jekyll-action@bugfix/bundler-error
         env:
