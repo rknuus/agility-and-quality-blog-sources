@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Keeping code-quality tools up to date"
+date: 2020-03-24
+page-tags: [quality, short-read]
+---
+
+Code-quality enhancing tools like compiler warnings, static code analyzers, or sanitizers provide invaluable feedback. They work well, when being applied from the beginning on. Retro-fitting them on legacy code yields typically a long list of issues. Fixing them could stall your team for a while.
+
+image::/images/post-images/noun_Paper Stack_2606113.svg[align="center"]
+
+Surely you want to update those tools from time to time. New compilers come with additional warnings, static code analysis rules evolve etc. Suddenly your code is no longer rated being of highest quality. The length of the issue list depends on how often you update those tools. So the problem is that every successful software product inevitable turns into a legacy product.
+
+image::/images/post-images/noun_ruin_3123367.svg[align="center"]
+
+That's why link:https://docs.sonarqube.org/7.4/user-guide/fixing-the-water-leak/[SonarQube's "fix the leak"] metaphor is so useful. It means that code written or changed from a baseline date on shall meet highest standards and must not generate any new issues. All code older than the baseline date doesn't matter.
+
+image::/images/post-images/noun_leak_3194255.svg[align="center"]
+
+This allows to update code-quality enhancing tools & rules without stalling development teams by declaring your code base as "legacy" on every tool & rules update. When combined with a strategy to gradually clean up the messfootnote:[will be covered in the upcoming post], this takes the pain from updating tools & rules.
+
+[.text-center]
+image:/images/post-images/noun_cleaning_199037.svg[] image:/images/post-images/noun_Syringe_126172.svg[]
+
+One drawback is that most tools need to process entire files and cannot be applied to change deltas. Changing a single character in a big file can lead to many new issues. In his link:https://youtu.be/JPnN2c2odNY?t=2080[CppCon 2019 talk] Fred Tingaud sketches a simple algorithm to improve granularity: Apply code-quality enhancing checks before & after a change and only report the delta as new issues.
