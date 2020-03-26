@@ -299,6 +299,11 @@ img {
   font-size: 0.8em;
 }
 
+.changehistory {
+  font-size: 0.8em;
+  text-align: right;
+}
+
 .imageblock {
   margin-top: 22px;
   font-size: 0.8em;

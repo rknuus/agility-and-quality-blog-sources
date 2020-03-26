@@ -16,10 +16,17 @@ image::https://imagery.pragprog.com/products/363/rjnsd.jpg?1409862136[Nature of 
 The book has only 100 pages with many pictures and uses blank space liberally. Even better, after reading half the book you covered the entire model. The second part is an FAQ and some parts might be skipped. This makes it a quick read.
 
 [.text-center]
-image:/images/post-images/noun_Stopwatch_1554793.svg[] image:/images/post-images/noun_Reading_38463.svg[]
+image:/images/post-images/noun_Time_2107592.svg[] image:/images/post-images/noun_Reading_38463.svg[]
 
 A question not answered by this book is how to turn product visions into features. This is particularly challenging for sets of related features and long-term objectives. To be fair, this question is not answered by the agile development literature I'm familiar with, in general. I'll cover one way to derive features from visions in an upcoming series of blog articles.
 
 image::/images/post-images/noun_rating stars_292113.svg[align="center"]
 
 The simplicity of the approach has changed my view and I find the clarity of thought inspiring. For these reasons I rate the book with 5 out of 5 stars. A highly recommended read. Enjoy!
+
+[.changehistory]
+.change history
+****
+update icons, 26-Mar-2020 +
+initial version, 26-Nov-2019
+****
