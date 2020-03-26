@@ -13,11 +13,14 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
+    background-color: transparent;
     text-decoration: none;
-    color: #999;
+    color: #696969;
 }
-a:hover {
+a:hover,
+a:focus {
     text-decoration: underline;
+    color: #4B0082;
 }
 h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -36,4 +39,15 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+ul.posts li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #2F4F4F;
+}
+
+ul.posts li a:hover, a:focus {
+    text-decoration: underline;
+    color: #4B0082;
 }
