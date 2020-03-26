@@ -6,12 +6,12 @@ page-tags: [agility, long-read]
 ---
 
 == The original test
-Probably you know link:https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/[The Joel Test]. Based on 12 simple questions it was designed to measure the quality of a software team, but it also tells a lot about the culture of the organization the software team is working for. So assessing it is useful if you consider to apply for a job at that organization.
+You probably know link:https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/[The Joel Test]. Based on 12 simple questions it was designed to measure the quality of a software team, but it also tells a lot about the culture of the organization the software team is working for. So assessing it is useful if you consider to apply for a job at that organization.
 
 == The test revisited
 The https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/[Joel Test] is almost 20 years old. There are new takes on the test like link:https://dev.to/checkgit/the-joel-test-20-years-later-1kjk[The Joel Test: 20 Years Later], slightly refining some questions and adding a 13th one. The conclusion is that the test is still relevant.
 
-=== Addendum: 14. Do you identify flaky tests and instable infrastructure
+=== Addendum: 14. Do you identify flaky tests and instable infrastructure?
 An addendum related to the engineering culture I'd like to add is the evaluation of the reliability of the tests and the infrastructure (e.g. the build server). It's easy to setup CI/CD to work a few times, but if the result is not almost perfectly reliable, what's the point of CI/CD?!
 
 == A personal take
@@ -70,3 +70,10 @@ Or are you perfectly allowed to fail? Are you encouraged to risk something? Do y
 19. Do you have a team vision & mission and is it related to the organization vision & mission?
 20. Do you measure by how much you reach organizational & team goals?
 21. Do you celebrate failure?
+
+[.changehistory]
+.change history
+****
+improve wording and add missing punctuation mark, 26-Mar-2020 +
+initial version, 02-Feb-2020
+****
