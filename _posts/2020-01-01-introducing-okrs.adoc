@@ -68,6 +68,7 @@ That's why it's crucial to balance OKRs, e.g. including quantitative as well as 
 
 Organizations can be quite different. What works in one organization might not work for another one. Because there is not just one right way of using OKRs, get started based on an existing approach you like. Then tailor it to your needs.
 
+[bibliography]
 == References
 - [[whatmatters]][1]: https://www.whatmatters.com/book[Measure What Matters] by John Doerr
 - [[perdooguide]][2]: https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs]

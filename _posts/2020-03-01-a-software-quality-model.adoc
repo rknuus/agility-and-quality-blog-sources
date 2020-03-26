@@ -5,7 +5,7 @@ date: 2020-03-01
 page-tags: [quality, short-read]
 ---
 
-As explained link:../../../2020/02/09/the-problem-with-software-quality.html[before] quality is subjective. That's why a definition of Software Quality must be quite abstract to be widely acceptable. My favorite definition is an extension of <<DeJ2016,Juran's>> "fitness for use" and maps to the one in the book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] (<<Jef2015>>):
+As explained link:../../../2020/02/09/the-problem-with-software-quality.html[before] quality is subjective. That's why a definition of Software Quality must be quite abstract to be widely acceptable. My favorite definition is an extension of <<DeJ2016,Juran's>> "fitness for use" (<<DeJ2016>>) and maps to the one in the book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] (<<Jef2015>>):
 
 Software Quality is the combination of:
 
@@ -29,7 +29,8 @@ Revisiting my link:../../../2020/02/09/the-problem-with-software-quality.html[So
 - work _intuitively_: stakeholders (e.g. developers) can represent their interests (e.g. fitness for change) while everybody keeps the overview to make conscious decisions
 - and are _flexible_: linking the system specific link:https://iso25000.com/index.php/en/iso-25000-standards/iso-25010[quality attributes] tailors the model to the system context
 
+[bibliography]
 == References
 
-- [[DeJ2016]][DeJ2016]: https://www.amazon.com/Jurans-Quality-Handbook-Performance-Excellence-ebook-dp-B01MEC22PW/dp/B01MEC22PW[Juran's Quality Control Handbook] by Joseph A. DeFeo & Joseph M. Juran
-- [[Jef2015]][Jef2015]: https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries
+- [[[DeJ2016]]]: https://www.amazon.com/Jurans-Quality-Handbook-Performance-Excellence-ebook-dp-B01MEC22PW/dp/B01MEC22PW[Juran's Quality Control Handbook] by Joseph A. DeFeo & Joseph M. Juran
+- [[[Jef2015]]]: https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries

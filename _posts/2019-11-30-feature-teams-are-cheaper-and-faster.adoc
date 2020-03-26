@@ -20,6 +20,7 @@ But won't feature teams suffer from delays? Let's assume a feature team experien
 
 That's why feature teams make your organization cheaper and faster. Cheaper because of less overhead. Faster, because delays generally impact just a single team instead of the entire organization, minimizing dead time. And scaling simply means adding more feature teams. That's why feature teams make a lot of sense.
 
+[bibliography]
 == References
 
-- [[Jef2015]][Jef2015]: https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries
+- [[[Jef2015]]]: https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries
