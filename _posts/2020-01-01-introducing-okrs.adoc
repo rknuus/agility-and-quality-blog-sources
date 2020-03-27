@@ -9,13 +9,19 @@ page-tags: [agile, okr, long-read]
 Our coach during my organization's transition to https://www.scaledagileframework.com/[SAFe] (see link:../../../2019/12/26/embarking-on-safe-as-a-start.html[Embarking on SAFe &ndash; as a start]) introduced us to a goal setting approach called OKR which stands for _Objective_ and _Key Result_. The concept struck a chord with me and I began to study it.
 
 == Recommended literature
-As a deep-dive I read the book https://www.whatmatters.com/book[Measure What Matters] by John Doerr (<<whatmatters,[1]>>), followed by the white papers https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] (<<perdooguide,[2]>>) and https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] (<<googleplaybook,[3]>>). All three resources are recommended reads on which the following introduction is based.
+As a deep-dive I read the book https://www.whatmatters.com/book[Measure What Matters] by John Doerr (<<whatmatters,[1]>>), followed by the white papers https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] (<<perdooguide,[2]>>) and https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] (<<googleplaybook,[3]>>).
+
+image::/images/post-images/noun_Reading_38463.svg[align="center"]
+
+All three resources are recommended reads on which the following introduction is based.
 // My link:../../../2020/02/07/practical-okr-tips.html[Practical OKR tips] might be helpful to get started.
 
 == Purpose of OKRs
 OKRs are supposed to make a difference, to push for ambitious ideas. So OKRs not for business as usual.footnote:[That's why I struggle to understand the point of "committed OKRs" in https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook].] That's why OKRs are not just KPIs (see <<okrvskpi,[4]>>).
 
 Aiming high increases chances of failure. But that's fine! Because every a step in the right direction is a success, whether you reach the goal or not. And only if you set ballsy goals you open your mind for ideas so bold you wouldn't dare to think of them otherwise.
+
+image::/images/post-images/noun_goal_2518882.svg[align="center"]
 
 OKRs work for entire organizations, teams, but also on individual level. By linking team OKRs to organization OKRs and individual OKRs to team and/or individual OKRs they align organizations. In this case I recommend to use OKRs strictly for organizational goals, but not for personal development. That's why OKRs don't work well for MBO (Management By Objective, see <<okrvsmbo,[5]>>).
 
@@ -25,6 +31,9 @@ In the spirit of Churchill's quote "Plans are of little importance, but planning
 https://www.whatmatters.com/book[Measure What Matters] and https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] define _Objectives_ as the "What" and _Key Results_ as the "How". _Objectives_ "express goals and intent" (<<googleplaybook,[3]>>), while _Key Results_ are unambiguous measurements showing whether you are moving towards or whether you have reached the goal.
 
 Personally I find the metaphor used in https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] even more helpful: _Objectives_ answer "where you need to go" (<<perdooguide,[2]>>) by setting a clear goal and a general direction (e.g. when starting in London, the goal New York City implies the westwards as general direction), while _Key Results_ are like a GPS device telling you the current position. By comparing the current position to the goal we can see whether we are moving and adjust the concrete direction we should take.
+
+[.text-center]
+image:/images/post-images/noun_World Map_751007.svg[] image:/images/post-images/noun_Satellite_2792036.svg[] image:/images/post-images/noun_Train_2433158.svg[]
 
 Given an _Objective_ plus measurable indicators of progress and completion in the form of _Key Results_, https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] is the clearest what to do next: define _Initiatives_. _Initiatives_ are activities that probably get you closer to an _Objective_ (e.g. "buy a sailboat" and "sail west for 8 days"). If an _Initiative_ doesn't work (e.g. if you are stuck in a calm a sailboat is of no use) the _Key Results_ will tell you soon. Then you can decide whether to continue, to drop the _Initiative_ in favour of another one, or even to change the OKR.
 
@@ -36,9 +45,15 @@ OKRs apply on multiple levels and with different time scopes:
 - Tactical team & individual OKRs often serve for three months.
 // footnote:[My link:../../../2020/02/07/practical-okr-tips.html[Practical OKR tips] cover the question when tactical OKRs resp. individual OKRs make sense.]
 
+image::/images/post-images/okr-organization-impact.svg[align="center" width=80%]
+
 Because OKRs have specific time scopes they should always be time-bound. https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] contains concrete suggestions what to do if an OKR is due, depending on the achievement and the type of OKR.
 
+image::/images/post-images/okr-time-scopes.svg[align="center" width=80%]
+
 It obviously doesn't make sense to define goals just on a single organizational level. That's why a set of OKRs can be organized in trees. Each child OKR is a shorter-term and/or more concrete step towards the parent OKR. For instance if multiple teams work on the same product or on the same epic, then each team has team-specific OKRs derived from common parent OKRs. Personally I prefer the take of https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] to define specific _Objectives_ on each level over the one in https://www.whatmatters.com/book[Measure What Matters], where parent _Key Results_ serve as _Objectives_ on the level below.
+
+image::/images/post-images/okr-hierarchy.svg[align="center" width=50%]
 
 Two key idea of OKRs I find particularly compelling:
 
@@ -62,7 +77,7 @@ Transparency is critical. The measurements of _Key Results_ are instrumental to 
 Aiming high means that chances of failure are higher. This only works if you have the necessary psychological safety, that you can take risks without being afraid of consequences. https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] targets a success rate of 70% with high variance. But it also means that you can tap the full potential of your organization. https://www.whatmatters.com/resources/googles-okr-playbook[Google's OKR Playbook] puts it like this: "What could my [or my customers'] world look like in several years if we were freed from most constraints?"
 
 == Remember, it's just a tool
-Setting goals is an art. It can easily go wrong. A Harvard Business School article lists several bad side effects: "a rise in unethical behavior, over-focus on one area while neglecting other parts of the business, distorted risk preferences, corrosion of organizational culture, and reduced intrinsic motivation" (<<goalsgonebad>>,[8]). Indeed, human history contains many examples of goal setting taken too far.
+Setting goals is an art. It can easily go wrong. A Harvard Business School article lists several bad side effects: "a rise in unethical behavior, over-focus on one area while neglecting other parts of the business, distorted risk preferences, corrosion of organizational culture, and reduced intrinsic motivation" (<<goalsgonebad,[8]>>). Indeed, human history contains many examples of goal setting taken too far.
 
 That's why it's crucial to balance OKRs, e.g. including quantitative as well as qualitative ones like "achieve a world first, keeping everybody alive and happy". Another key is to focus on outcome instead of output and to continuously verify whether _Key Results_ and _Objectives_ still make sense.
 
@@ -78,3 +93,10 @@ Organizations can be quite different. What works in one organization might not w
 - [[canvas]][6]: https://medium.com/yousefghandour/okrs-brainstorming-canvas-c1b6e5f650a7[OKRs Brainstorming Canvas]
 - [[publicokrs]][7]: https://about.gitlab.com/company/okrs/[GitLab's OKRs]
 - [[goalsgonebad]][8]: https://hbswk.hbs.edu/item/when-goal-setting-goes-bad[When Goal Setting Goes Bad]
+
+[.changehistory]
+.change history
+****
+add diagrams & icons, 27-Mar-2020 +
+initial version, 01-Jan-2020
+****
