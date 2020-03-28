@@ -13,7 +13,7 @@ jobs:
       - name: Check if unresolved TODOs
         run: ./scripts/check-todos-solved.sh
       - name: Jekyll Action
-        uses: rknuus/jekyll-action@bugfix/bundler-error
+        uses: rknuus/yet-another-jekyll-action@master
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
           PUBLISH_REPO: rknuus/rknuus.github.io
