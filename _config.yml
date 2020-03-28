@@ -42,6 +42,4 @@ exclude:
   - image-sources/
   - Gemfile
   - Gemfile.lock
-  - build.sh
-  - build_locally.sh
   - README.md
