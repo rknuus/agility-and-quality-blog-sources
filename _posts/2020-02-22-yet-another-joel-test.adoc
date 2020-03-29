@@ -2,7 +2,7 @@
 layout: post
 title: "Yet another Joel Test"
 date: 2020-02-22
-page-tags: [agility, long-read]
+categories: [agility, job]
 ---
 
 == The original test
@@ -72,7 +72,7 @@ Or are you perfectly allowed to fail? Are you encouraged to risk something? Do y
 21. Do you celebrate failure?
 
 [.changehistory]
-.change history
+.change history:
 ****
 improve wording and add missing punctuation mark, 26-Mar-2020 +
 initial version, 02-Feb-2020

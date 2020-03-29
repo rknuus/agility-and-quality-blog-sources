@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing OKRs"
 date: 2020-01-01
-page-tags: [agile, okr, long-read]
+categories: [agility, okr]
 ---
 
 == How I got obsessed
@@ -95,7 +95,7 @@ Organizations can be quite different. What works in one organization might not w
 - [[goalsgonebad]][8]: https://hbswk.hbs.edu/item/when-goal-setting-goes-bad[When Goal Setting Goes Bad]
 
 [.changehistory]
-.change history
+.change history:
 ****
 add diagrams & icons, 27-Mar-2020 +
 initial version, 01-Jan-2020

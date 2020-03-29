@@ -2,7 +2,7 @@
 layout: post
 title: "Feature teams are cheaper and faster"
 date: 2019-11-30
-page-tags: [agile, short-read]
+categories: [agility, development-process]
 ---
 
 A key point of the book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] introduced in link:../../../2019/11/26/quintessence-of-software-development.html[Quintessence of (agile) software development] are feature teams: "Each handoff will require scheduling and cause delays." (<<Jef2015>>)

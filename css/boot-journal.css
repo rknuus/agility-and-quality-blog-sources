@@ -289,7 +289,33 @@ img {
   font-size: 0.8em;
 }
 
+.post-metadata {
+  font-size: 0.8em;
+  margin-bottom: 22px;
+  width:100%;
+  text-align:center;
+}
+
+.post-date {
+  float: left;
+  text-align: left;
+  width: 20%;
+}
+
+.post-tags {
+  display: inline-block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.post-read-time {
+  float: right;
+  text-align: right;
+  width: 20%;
+}
+
 .changehistory {
+  margin-top: 22px;
   font-size: 0.8em;
   text-align: right;
 }

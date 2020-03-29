@@ -2,7 +2,7 @@
 layout: post
 title: "Individual OKRs"
 date: YYYY-mm-dd
-page-tags: [quality, software architecture, definition, short-read]
+categories: [agility, okr, tips]
 ---
 
 - use individual OKRs until you are fluent in OKRs, then - depending on your needs - drop individual OKRs like perdoo (https://www.perdoo.com/resources/pros-and-cons-of-individual-okrs/) or stop using tactical OKRs like Google did (https://www.businessinsider.com/google-okr-goals-sundar-pichai-vs-larry-page-2018-6?r=US&IR=T)

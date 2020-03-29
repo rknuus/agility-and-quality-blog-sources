@@ -2,7 +2,7 @@
 layout: post
 title: "A Software Quality Model"
 date: 2020-03-01
-page-tags: [quality, short-read]
+categories: [quality, model]
 ---
 
 As explained link:../../../2020/02/09/the-problem-with-software-quality.html[before] quality is subjective. That's why a definition of Software Quality must be quite abstract to be widely acceptable. My favorite definition is an extension of <<DeJ2016,Juran's>> "fitness for use" (<<DeJ2016>>) and maps to the one in the book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] (<<Jef2015>>):

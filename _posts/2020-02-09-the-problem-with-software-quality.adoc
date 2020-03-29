@@ -2,7 +2,7 @@
 layout: post
 title: "The problem with Software Quality"
 date: 2020-02-09
-page-tags: [quality, short-read]
+categories: [quality]
 ---
 
 Before I started my research on Software Quality I defined a couple of criteria a good definition of Software Quality should fulfil:
@@ -19,8 +19,8 @@ When I read "quality is a perceptual, conditional and somewhat _subjective_ attr
 
 image::/images/post-images/noun_Penrose Triangle_358755.svg[align="center"]
 
-The situation gets worse when we try to measure Software Quality. Measurements feel objective, even though the measured topic might be subjective. So I gave up on a Software Quality definition. Giving up on Software Quality itself is not an option. It's too important a topic.
+The situation gets worse when we try to measure Software Quality. Measurements feel objective, even though the measured topic might be subjective. So I gave up on a universal Software Quality definition. Giving up on Software Quality itself is not an option. It's too important a topic.
 
 image::/images/post-images/noun_confused_1011321.svg[align="center"]
 
-In a link:../../../2020/03/01/a-software-quality-model.html[follow-up article] I'll present a Software Quality definition aiming to address my criteria and a model to reason about the quality of a concrete product.
+In a link:../../../2020/03/01/a-software-quality-model.html[follow-up article] I'll present a subjective Software Quality definition aiming to address my criteria and a model to reason about the quality of a concrete product.

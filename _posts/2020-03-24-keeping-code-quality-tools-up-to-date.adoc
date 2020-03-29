@@ -2,7 +2,7 @@
 layout: post
 title: "Keeping code-quality tools up to date"
 date: 2020-03-24
-page-tags: [quality, short-read]
+categories: [quality, tools]
 ---
 
 Code-quality enhancing tools like compiler warnings, static code analyzers, or sanitizers provide invaluable feedback. They work well, when being applied from the beginning on. Retro-fitting them on legacy code yields typically a long list of issues. Fixing them could stall your team for a while.

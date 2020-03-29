@@ -54,13 +54,16 @@
 # References
 - [Blog Backlog](https://trello.com/b/BPfN97cY/agile-quality-blog)
 - [GitHub Actions documentation](https://help.github.com/en/actions/automating-your-workflow-with-github-actions)
-- [Jekyll action (forked)](https://github.com/rknuus/jekyll-action)
+- [Jekyll action (forked)](https://github.com/rknuus/yet-another-jekyll-action)
   - [original](https://github.com/marketplace/actions/jekyll-action)
 - [Creating and using encrypted secrets (GitHub Actions)](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Font Awesome icons](https://fontawesome.com/icons/clock?style=regular)
 - [Jekyll plugins and versions supported by GitHub Pages](https://pages.github.com/versions/)
 - [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed)
 - [centering of image caption as described by Ted](https://discuss.asciidoctor.org/How-to-center-image-caption-when-the-image-is-centered-td901.html)
+- [left-, center-, and right-aligning of 3 columns](https://stackoverflow.com/a/14269831)
+- [Jekyll: Reading time without plugins](https://carlosbecker.com/posts/jekyll-reading-time-without-plugins)
 
 ## Troubleshooting
 - [About Jekyll build errors for GitHub Pages sites](https://help.github.com/en/github/working-with-github-pages/about-jekyll-build-errors-for-github-pages-sites)

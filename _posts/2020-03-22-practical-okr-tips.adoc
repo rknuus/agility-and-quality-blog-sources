@@ -2,7 +2,7 @@
 layout: post
 title: "Practical OKR tips"
 date: 2020-03-22
-page-tags: [agile, okr, long-read]
+categories: [agility, okr, tips]
 ---
 
 == Our first attempt
@@ -52,6 +52,7 @@ image::/images/post-images/noun_celebrate_2788745.svg[align="center"]
 
 You might even use the opportunity to turn the negative conotation of failure to the positive by celebrating learnings, changing the culture of your organization to embrace experiments, take risks, and continuously learn.
 
+// FIXME(KNR): exclude the rest from word count
 == My organization's OKR checklist
 Our checklist is compiled based on:
 

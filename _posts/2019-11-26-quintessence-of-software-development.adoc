@@ -2,10 +2,7 @@
 layout: post
 title: "Quintessence of (agile) software development"
 date: 2019-11-26
-tags:
-  - agile
-  - book-review
-  - short-read
+categories: [agility, development-process, book-review]
 ---
 
 After reading the book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries I am stunned. I cannot believe the simplicity in which the author describes the act of developing a software product. Apparently, Ron Jeffries figured out the essence of software development: Keep it simple, make it valuable, build it piece by piece.
@@ -25,7 +22,7 @@ image::/images/post-images/noun_rating stars_292113.svg[align="center"]
 The simplicity of the approach has changed my view and I find the clarity of thought inspiring. For these reasons I rate the book with 5 out of 5 stars. A highly recommended read. Enjoy!
 
 [.changehistory]
-.change history
+.change history:
 ****
 update icons, 26-Mar-2020 +
 initial version, 26-Nov-2019

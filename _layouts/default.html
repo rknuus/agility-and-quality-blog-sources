@@ -5,15 +5,15 @@
 			<title>{{ page.title }}</title>
             <link rel="stylesheet" type="text/css" href="/css/boot-journal.css">
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/font-awesome/css/all.css">
 
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159071141-1"></script>
+			<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 			<script>
 			  window.dataLayer = window.dataLayer || [];
 			  function gtag(){dataLayer.push(arguments);}
 			  gtag('js', new Date());
 
-			  gtag('config', 'UA-159071141-1');
+			  gtag('config', '{{ site.google_analytics }}');
 			</script>
 		</head>
 		<body>

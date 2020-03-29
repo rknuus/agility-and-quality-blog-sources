@@ -2,7 +2,7 @@
 layout: post
 title: "Hosting an OKR Brainstorming Workshop"
 date: YYYY-mm-dd
-page-tags: [quality, software architecture, definition, short-read]
+categories: [agility, okr, tips]
 ---
 
 - use <<canvas,OKRs Brainstorming Canvas>> to discover goals and elaborate OKRs
