@@ -1,0 +1,46 @@
+---
+layout: post
+title: "OKR elaboration workflow"
+date: 2020-04-01
+categories: [agility, okr, tips]
+---
+
+To define relevant OKRs you first need to identify areas with significant potential (see https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] or link:../../../2020/01/01/introducing-okrs[Introducing OKRs]). Before hosting an OKR workshop reserve time to collect and interpret data. The more long-term the OKRs, the more preparation time makes sense.
+
+image::/images/post-images/noun_Data_2952575.svg[align="center"]
+
+To systematically gather data first brainstorm input sources, then brainstorm potentially relevant input. https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] lists several input sources. Among others:
+
+- the future (e.g. parent organization OKRs or your organization's mission & vision)
+- the past (e.g. previous OKRs)
+- pain points (e.g. KPIs indicating significant problems in certain areas or the opinions of your organization's members)
+
+Consolidate and identify the top items. Prepare a couple of "goal brainstorming canvas" posters (below) and put each item in the "mission & vision / parent OKR" box of one poster. It helps a lot to see them while brainstorming OKRs. Start the OKR workshop by presenting these items.
+
+image::/images/post-images/noun_Brainstorm_2718986.svg[align="center"]
+
+Then brainstorm goal and measurement candidates. The canvas below helps to structure the brainstorming process. It is inspired by Yousef Ghandour's https://medium.com/yousefghandour/okrs-brainstorming-canvas-c1b6e5f650a7[OKRs Brainstorming Canvas]. The lanes on the canvas below should help to group related items across columns and the canvas space is optimized for brainstorming.
+
+image::/images/post-images/goal brainstorming canvas.svg[align="center" link="https://docs.google.com/presentation/d/13ezeFDPx3rzyHyBML9E3AeZfXZYIaguobjtvKdipz1s"]
+
+Before asking your organization to review the OKRs wordsmith the brainstorming outcome and apply a checklist (e.g. link:../../../2020/03/22/practical-okr-tips.html[my organization's checklist]) to improve the OKR quality. Then make them available to your organization.
+
+image::/images/post-images/noun_protester_2812080.svg[align="center"]
+
+We use the following format to present our OKRs. Adding some extra information like the motivation and the specification how to measure helps. Particularly while the organization is still building up experience with OKRs.
+
+.recommended OKR presentation format
+[%header]
+|===
+| Objective | Reason / Motivation | Key Results | How to measure? | Next steps
+| O1.1
+| parent OKR O1 +
+because: reasons
+| KR1.1.1 +
+ +
+KR1.1.2 +
+
+| measurement method 1.1.1 +
+measurement method 1.1.2
+| first initiatives to measure
+|===
