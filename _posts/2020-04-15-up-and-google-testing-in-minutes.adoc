@@ -1,0 +1,73 @@
+---
+layout: post
+title: "Up and GoogleTesting in Minutes"
+date: 2020-04-15
+categories: [c++, quality, testing, tips]
+---
+
+Setting up testing infrastructure for new C++ projects without aid of IDEs can be a nuisance. This article presents an approach which should get you started within minutes. All you need is a recent CMake version: 3.14 or newer will workfootnote:[see link:https://cmake.org/cmake/help/v3.14/module/FetchContent.html[CMake's documentation] how to support version 3.11]. For demonstration purposes we will use link:https://github.com/google/googletest[GoogleTest] version 1.10. Of course, the approach also works for other CMake-ready testing frameworks.
+
+Append the following lines to your project's root `CMakeLists.txt`:
+
+.CMakeLists.txt
+[source,cmake]
+----
+set(CMAKE_CXX_STANDARD 11)  # // <1>
+
+include(CTest)
+enable_testing()
+add_subdirectory(test)
+----
+<1> GoogleTest 1.10 requires at least C++11.
+
+Now create a folder `test` and a file `test/CMakeLists.txt` containing:
+
+.test/CMakeLists.txt
+[source,cmake,linenums]
+----
+cmake_minimum_required(VERSION 3.14.0)  # // <1>
+
+set(TEST_EXECUTABLE your-test)  # // <2>
+set(TEST_NAME test-name)
+set(UNIT_UNDER_TEST_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include)
+
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG        release-1.10.0
+)
+FetchContent_MakeAvailable(googletest)  # // <3>
+
+add_executable(${TEST_EXECUTABLE} Foo.cpp)  # // <4>
+target_link_libraries(${TEST_EXECUTABLE}
+  gmock  # // <5>
+  gmock_main
+)
+target_include_directories(${TEST_EXECUTABLE} PUBLIC
+  ${UNIT_UNDER_TEST_INCLUDE_DIR}  # // <6>
+)
+
+add_test(${TEST_NAME} ${TEST_EXECUTABLE})
+----
+<1> Ensure minimum version supporting this approach.
+<2> Variables to centralize all customization points and simplify this article.
+<3> Add GoogleTest to the main build, so that the main build can use GoogleTest targets. GoogleTest sources are fetched to your main build directory, keeping your main source directory clean.
+<4> Either add the required sources of the unit-under-test or provide the link:https://stackoverflow.com/questions/41883841/confusion-about-unit-tests-googletest-and-projects-folder-files/41939662#41939662[production code as library] and add the production library to line 16.
+<5> link:https://github.com/google/googlemock[GoogleMock was absorbed into GoogleTest] but confusingly contains GoogleTest.
+<6> Allow includes of the unit-under-test.
+
+Then create a file `test/Foo.cpp` with a minimal, failing test to demonstrate that the testing infrastructure works:
+
+.test/Foo.cpp
+[source,cpp]
+----
+#include <gmock/gmock.h>
+#include <gtest/gtest.h>
+
+TEST(Foo, Bar) {
+  ASSERT_THAT(0, ::testing::Eq(1));
+}
+----
+
+Finally you are ready to `mkdir build && cd build && cmake -G Ninja ..` and to call `ninja && ctest` whenever you fancy.
