@@ -14,3 +14,5 @@ group :jekyll_plugins do
   gem "github-pages", '~> 202'
   gem 'jekyll-asciidoc', '~> 2.1.1'
 end
+
+gem "pygments.rb"
