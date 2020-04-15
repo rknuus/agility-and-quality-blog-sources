@@ -8,11 +8,11 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "bundler"
+gem 'bundler'
 
 group :jekyll_plugins do
-  gem "github-pages", '~> 202'
-  gem 'jekyll-asciidoc', '~> 2.1.1'
+  gem 'github-pages'
+  gem 'jekyll-asciidoc'
 end
 
-gem "pygments.rb"
+gem 'pygments.rb'
