@@ -1,0 +1,22 @@
+---
+layout: page
+permalink: /categories/
+title: Categories
+---
+
+<div id="tag-overview">
+{% for category in site.categories %}
+  <div class="tag">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    <ul class="posts">
+    {% for post in site.categories[category_name] %}
+      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+</div>

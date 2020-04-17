@@ -7,7 +7,11 @@ layout: default
     <i class="far fa-calendar"></i> {{ page.date | date_to_string }}
   </div>
   <div class="post-tags">
-    <i class="fas fa-tags"></i> {{ page.categories | sort_natural | array_to_sentence_string | join: ', ' }}
+    {% assign categories = page.categories | sort_natural %}
+    <i class="fas fa-tags"></i> {% for category in categories %}
+      <a href="/categories/#{{category|slugize}}">{{ category }}</a>
+      {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
   </div>
   <div class="post-read-time">
     {% assign words = content | number_of_words %}
