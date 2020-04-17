@@ -286,6 +286,7 @@ img {
 }
 
 #footnotes {
+  margin-bottom: 22px;
   font-size: 0.8em;
 }
 #footnotes a {
