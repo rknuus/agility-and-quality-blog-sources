@@ -288,6 +288,23 @@ img {
 #footnotes {
   font-size: 0.8em;
 }
+#footnotes a {
+  color: #000000;
+}
+#footnotes a:hover,
+a:focus {
+    text-decoration: underline;
+    color: #4B0082;
+}
+
+div.colist a {
+  color: #000000;
+}
+div.colist a:hover,
+a:focus {
+    text-decoration: underline;
+    color: #4B0082;
+}
 
 .post-metadata {
   font-size: 0.8em;
