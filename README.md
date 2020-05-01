@@ -64,6 +64,8 @@
 - [centering of image caption as described by Ted](https://discuss.asciidoctor.org/How-to-center-image-caption-when-the-image-is-centered-td901.html)
 - [left-, center-, and right-aligning of 3 columns](https://stackoverflow.com/a/14269831)
 - [Jekyll: Reading time without plugins](https://carlosbecker.com/posts/jekyll-reading-time-without-plugins)
+- [syntax highlighting in AsciiDoctor](https://asciidoctor-docs.netlify.com/asciidoc/1.5/source/source/)
+- [syntax highlighting with pygments](https://asciidoctor-docs.netlify.com/asciidoc/1.5/source/pygments/)
 
 ## Troubleshooting
 - [About Jekyll build errors for GitHub Pages sites](https://help.github.com/en/github/working-with-github-pages/about-jekyll-build-errors-for-github-pages-sites)
