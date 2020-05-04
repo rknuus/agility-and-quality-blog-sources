@@ -5,7 +5,7 @@ date: 2020-05-01
 categories: [debugging, quality, python, tips]
 ---
 
-If you receive a defect report with a log file and instructions how to reproduce the issue on a customer system, you take a look at the log file first. If the log file is big searching manually doesn't cut the mustard. For large enough log files even a decent log file viewer might not be good enough, e.g. if you need to match certain lines with others. So what to do about it?
+If you receive a defect report with a log file and instructions how to reproduce the issue on a customer system, you take a look at the log file first. If the log file is big searching manually doesn't cut the mustard. For large enough log files even a decent log file viewer might not be good enough, e.g. if you need to identify lines with identical message IDs. So what to do about it?
 
 Python's link:https://www.python.org/dev/peps/pep-0289/[generator expressions] could be a tool worth adding to your belt. In a nutshell a generator expression is a way to iterate over lazily-evaluated data and to apply map-reduce operations. Let's just have a look at an example:
 
@@ -33,6 +33,13 @@ with open('some logfile') as logfile:
 
 link:https://www.python.org/dev/peps/pep-0289/[Generator expressions] can be chained, i.e. a link:https://www.python.org/dev/peps/pep-0289/[generator expression] can be fed with elements of another link:https://www.python.org/dev/peps/pep-0289/[generator expression]. Thanks to lazy evaluation only the currently used elements must be loaded to memory. That's why this approach works reasonably fast for large files.
 
-When applying link:https://www.python.org/dev/peps/pep-0289/[generator expressions] on log files you can extract specific information and -- for instance -- generate a link:https://plantuml.com[diagram] to visualize matching lines. Two caveats I'd like to point out: You can consume a generator expression once and only once. And you need to pick up link:https://en.wikipedia.org/wiki/Functional_programming[functional programming].
+When applying link:https://www.python.org/dev/peps/pep-0289/[generator expressions] on log files you can extract specific information and -- for instance -- generate a link:https://plantuml.com[diagram] to visualize matching lines with identical message IDs. Two caveats I'd like to point out: You can consume a generator expression once and only once. And you need to pick up link:https://en.wikipedia.org/wiki/Functional_programming[functional programming].
 
 To learn more about generator expressions check out David Beazley's excellent link:http://www.dabeaz.com/generators/[Generator Tricks]. And instead of reinventing the functional wheel check out the link:https://docs.python.org/3/library/itertools.html[documentation].
+
+[.changehistory]
+.change history:
+****
+improve case for generator expressions, 04-May-2020 +
+initial version, 01-May-2020
+****
