@@ -18,9 +18,17 @@ But won't feature teams suffer from delays? Let's assume a feature team experien
 - The communication overhead within a single team is considerably smaller than between multiple teams, because more manager levels means additional decision making delays.
 - Skill-based teams not immediately involved in a delay usually focus on their other business (e.g. team A would start another feature instead of F3) while feature teams will work on what matters most: resolving the issue.
 
-That's why feature teams make your organization cheaper and faster. Cheaper because of less overhead. Faster, because delays generally impact just a single team instead of the entire organization, minimizing dead time. And scaling simply means adding more feature teams. That's why feature teams make a lot of sense.
+That's why feature teams make your organization cheaper and faster. Cheaper because of less overhead. Faster, because delays generally impact just a single team instead of the entire organization, minimizing dead time. And scaling simply means adding more feature teams. That's why feature teams make a lot of sense. [Update: as explained in link:../../../2020/06/11/feature-teams-revisited-failure-modes-of-feature-teams.html[Feature teams revisited: failure modes of feature teams] feature teams are no silver bullet.]
 
 [bibliography]
 == References
 
 - [[[Jef2015]]]: https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries
+
+[.changehistory]
+.change history:
+****
+reference article about failure modes of feature teams, 11-Jun-2020 +
+initial version, 30-Nov-2019
+****
+

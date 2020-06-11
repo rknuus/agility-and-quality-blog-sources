@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Feature teams revisited: failure modes of feature teams"
+date: 2020-06-11
+categories: [agility, development-process]
+---
+
+In link:../../../2019/11/30/feature-teams-are-cheaper-and-faster.html[Feature teams are cheaper and faster] I made a strong case for feature teams. After taking an link:https://www.gotoacademy.nl/collections/architecture-with-agility-kevlin-henney[Architecture with Agility masterclass] hosted by Kevlin Henney I revised my view.
+
+The arguments presented link:../../../2019/11/30/feature-teams-are-cheaper-and-faster.html[earlier] are based on the failure mode of component teams: that delays can propagate through the organization and that consequently the need for management grows superlinearly.
+
+image::/images/post-images/noun_Accident_1920700.svg[align="center"]
+
+But feature teams are not a link:https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.117.315[silver bullet]. Feature teams have a failure mode, too. Feature teams might require a broad set of skills, which can be overwhelming and lead to low throughput or poor quality because a generalist can't dedicate the same amount of time to a particular skill as a specialist.
+
+image::/images/post-images/noun_Silver-Bullet_314511.svg[align="center"]
+
+So it depends on your particular context whether a component team or a feature team makes more sense. The link:https://www.gotoacademy.nl/collections/architecture-with-agility-kevlin-henney[masterclass] nicely demonstrated why it is crucial to design your organization link:http://www.melconway.com/Home/pdf/committees.pdf["according to the need for communication"] (Melvin Conway). Some organization design criteria could be:
+
+.selection of criteria pro/contra feature teams
+[%header]
+|===
+| criterion | favors
+
+| features require common skillset
+| feature team
+
+| features require broad skillset
+| component team
+
+| features require deep domain knowledge
+| feature team
+
+| features require deep component knowledge
+| component team
+
+| high need for communication about feature
+| feature team
+
+| high need for communication about skill
+| component team
+
+| faster business value delivery
+| feature team
+
+| higher code quality
+| component team
+
+| minimize WIP, handovers, and delays
+| feature team
+
+|===
+
+This relativization should be considered when reading Ron Jeffries' book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development], because he focuses on the strengths of feature team and the weaknesses of component teams, but doesn't cover the full picture.

@@ -15,7 +15,7 @@ The book has only 100 pages with many pictures and uses blank space liberally. E
 [.text-center]
 image:/images/post-images/noun_Time_2107592.svg[] image:/images/post-images/noun_Reading_38463.svg[]
 
-A question not answered by this book is how to turn product visions into features. This is particularly challenging for sets of related features and long-term objectives. To be fair, this question is not answered by the agile development literature I'm familiar with, in general. I'll cover one way to derive features from visions in an upcoming series of blog articles.
+A question not answered by this book is how to turn product visions into features. This is particularly challenging for sets of related features and long-term objectives. To be fair, this question is not answered by the agile development literature I'm familiar with, in general. I'll cover one way to derive features from visions in an upcoming series of blog articles. [Update: as explained in link:../../../2020/06/11/feature-teams-revisited-failure-modes-of-feature-teams.html[Feature teams revisited: failure modes of feature teams] feature teams are no silver bullet.]
 
 image::/images/post-images/noun_rating stars_292113.svg[align="center"]
 
@@ -24,6 +24,7 @@ The simplicity of the approach has changed my view and I find the clarity of tho
 [.changehistory]
 .change history:
 ****
+reference article about failure modes of feature teams, 11-Jun-2020 +
 update icons, 26-Mar-2020 +
 initial version, 26-Nov-2019
 ****
