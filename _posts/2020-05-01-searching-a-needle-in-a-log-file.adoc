@@ -2,7 +2,7 @@
 layout: post
 title: "Searching a needle in a log file"
 date: 2020-05-01
-categories: [debugging, quality, python, tips]
+categories: [debugging, quality, python, howto]
 ---
 
 If you receive a defect report with a log file and instructions how to reproduce the issue on a customer system, you take a look at the log file first. If the log file is big searching manually doesn't cut the mustard. For large enough log files even a decent log file viewer might not be good enough, e.g. if you need to identify lines with identical message IDs. So what to do about it?

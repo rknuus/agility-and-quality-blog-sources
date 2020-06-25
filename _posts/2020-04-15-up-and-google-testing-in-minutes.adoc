@@ -2,7 +2,7 @@
 layout: post
 title: "Up and GoogleTesting in Minutes"
 date: 2020-04-15
-categories: [c++, quality, testing, tips]
+categories: [c++, quality, testing, howto]
 ---
 
 Setting up testing infrastructure for new C++ projects without aid of IDEs can be a nuisance. This article presents an approach which should get you started within minutes. All you need is a recent CMake version: 3.14 or newer will workfootnote:[see link:https://cmake.org/cmake/help/v3.14/module/FetchContent.html[CMake's documentation] how to support version 3.11]. For demonstration purposes we will use link:https://github.com/google/googletest[GoogleTest] version 1.10. Of course, the approach also works for other CMake-ready testing frameworks.

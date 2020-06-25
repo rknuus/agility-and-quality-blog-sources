@@ -2,7 +2,7 @@
 layout: post
 title: "Yet another Joel Test"
 date: 2020-02-22
-categories: [agility, job]
+categories: [agility]
 ---
 
 == The original test

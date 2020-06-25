@@ -2,7 +2,7 @@
 layout: post
 title: "Practical OKR tips"
 date: 2020-03-22
-categories: [agility, okr, tips]
+categories: [agility, okr, howto]
 ---
 
 == Our first attempt

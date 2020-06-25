@@ -2,7 +2,7 @@
 layout: post
 title: "OKR elaboration workflow"
 date: 2020-04-01
-categories: [agility, okr, tips]
+categories: [agility, okr, howto]
 ---
 
 To define relevant OKRs you first need to identify areas with significant potential (see https://www.perdoo.com/resources/okr-ebook/[How to write great OKRs] or link:../../../2020/01/01/introducing-okrs[Introducing OKRs]). Before hosting an OKR workshop reserve time to collect and interpret data. The more long-term the OKRs, the more preparation time makes sense.
