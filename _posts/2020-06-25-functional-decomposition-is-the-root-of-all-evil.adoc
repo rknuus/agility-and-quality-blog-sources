@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Functional decomposition is the root of all evil"
+date: 2020-06-25
+categories: [agility, architecture, book-review]
+---
+
+In <<SER407,SE Radio Episode 407>> Juval Löwy made some bold statements. So I got curious, read the first part of his book <<Loe2020,Righting Software>>, and will publish the aspects I found most interesting. This is the first of a series of articles about his ideas and some reflections of mine.
+
+image::/images/post-images/noun_Reading_38463.svg[align="center"]
+
+His first major thesis is that functional decomposition is the mother of all software maintainability issues. A position taught by the <<SEI,Software Engineering Institute>>. The reasoning being that during the lifetime of a software system the structure of the software architecture makes adaptions to changing requirements harder and harder.
+
+image::/images/post-images/noun_tired_1749591.svg[align="center"]
+
+Indeed in classical project management the goal is to finish the development project. But even if the project completes in time, in budget, and with the expected functional scope, maintainability tends to be an afterthought. Which, according to <<WMW2020,Software Engineering at Google>> would be mere software development, but not software engineering. Because "software engineering is software development integrated over time." (<<WMW2020>>)
+
+image::/images/post-images/noun_engineer_1706578.svg[align="center"]
+
+Agile approaches focus on delivering value early and often. Still, maintainability is not guaranteed to be a concern. <<Jef2015,The Nature of Software Development>> suggests that for each increment the software should be well-designed (see link:../../../2019/11/26/quintessence-of-software-development.html[Quintessence of (agile) software development]), but that's quite hand-wavy.
+
+image::/images/post-images/noun_modern art_875730.svg[align="center"]
+
+In link:../../../2020/03/01/a-software-quality-model.html[A Software Quality Model] I suggested to link concrete quality attributes of the software system to "fitness for change". But this still doesn't answer how to decompose your software. Curious about the solution suggested by Juwal Löwy? I'll publish another post, soon.
+
+[bibliography]
+== References
+- [[[Loe2020]]]: https://rightingsoftware.org/[Righting Software] by Juval Löwy
+- [[[WMW2020]]]: https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791[Software Engineering at Google: Lessons Learned from Programming Over Time] by Titus Winters, Tom Manshreck, and Hyrum Wright
+- [[[Jef2015]]]: https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries
+- [[[SER407]]]: Software Engineering Radio https://www.se-radio.net/2020/04/episode-407-juval-lowy-on-righting-software/[Episode 407: Juval Löwy on Righting Software]
+- [[[SER396]]]: Software Engineering Radio https://www.se-radio.net/2020/01/episode-396-barry-oreilly-on-antifragile-architecture/r[Episode 396: Barry O’Reilly on Antifragile Architecture]
+- [[[SEI]]]: https://www.sei.cmu.edu/[Software Engineering Institute] of the Carnegie Mellon University
