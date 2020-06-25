@@ -8,7 +8,7 @@ categories: [agility, development-process, book-review]
 After reading the book https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries I am stunned. I cannot believe the simplicity in which the author describes the act of developing a software product. Apparently, Ron Jeffries figured out the essence of software development: Keep it simple, make it valuable, build it piece by piece.
 
 .source: https://pragprog.com
-image::https://imagery.pragprog.com/products/363/rjnsd.jpg?1409862136[Nature of Software Development book cover, 50%,align="center", title-align="center"]
+image::https://imagery.pragprog.com/products/363/rjnsd.jpg?1409862136[Nature of Software Development book cover, 50%, align="center", title-align="center"]
 
 The book has only 100 pages with many pictures and uses blank space liberally. Even better, after reading half the book you covered the entire model. The second part is an FAQ and some parts might be skipped. This makes it a quick read.
 

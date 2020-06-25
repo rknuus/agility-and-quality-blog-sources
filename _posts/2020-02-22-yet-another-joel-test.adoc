@@ -21,7 +21,7 @@ Besides a reasonable link:https://dev.to/checkgit/the-joel-test-20-years-later-1
 - Is the team highly qualified, so that I'd learn on a regular basis?
 - Can I relate my daily work to the larger organization goals, increasing my intrinsic motivation?
 
-The first one is probably easy to answer, because that's what interviewees usually focus on. For the other two I suggest the following tests. 
+The first one is probably easy to answer, because that's what interviewees usually focus on. For the other two I suggest the following tests.
 
 == Assess team qualification
 === 15. Do some team members attend & present at public conferences?
@@ -41,7 +41,7 @@ Almost every organization has a vision and/or mission statement. Sometimes the v
 According to https://www.whatmatters.com/book[Measure What Matters] by John Doerr: "Contributors are most engaged when they can actually see how their work contributes to the company’s success." If your work feels meaningful, if your contribution clearly has a purpose, your intrinsic motivation raises. The interesting question is whether the team vision & mission is explicitly articulated and whether everybody agrees on it.
 
 === 20. Do you measure by how much you reach organizational & team goals?
-Setting goals (e.g. as link:../../../2020/01/01/introducing-okrs.html[OKRs]) is not easy but also not impossible. The next step is even harder: to measure outcome. Multiple organization I worked with did bi-annual performance evaluations, where you just had to provide convincing arguments why you didn't do what you planned to do a year ago. So it was highly subjective. I prefer less hand-wavy ways to evaluate whether goals are met. It's not the end of the world to not fully achieve a goal (see below). So let's be honest about it. 
+Setting goals (e.g. as link:../../../2020/01/01/introducing-okrs.html[OKRs]) is not easy but also not impossible. The next step is even harder: to measure outcome. Multiple organization I worked with did bi-annual performance evaluations, where you just had to provide convincing arguments why you didn't do what you planned to do a year ago. So it was highly subjective. I prefer less hand-wavy ways to evaluate whether goals are met. It's not the end of the world to not fully achieve a goal (see below). So let's be honest about it.
 
 === 21. Do you celebrate failure?
 Nobody is perfect. That's why no one in his right mind expects constant success. But how do you deal with failures? Do you play the blame game, do you begin to sandbag and underpromise? Are you put under increasing pressure, because the delivery date must be held?

@@ -22,7 +22,6 @@ That's why feature teams make your organization cheaper and faster. Cheaper beca
 
 [bibliography]
 == References
-
 - [[[Jef2015]]]: https://pragprog.com/book/rjnsd/the-nature-of-software-development[The Nature of Software Development] by Ron Jeffries
 
 [.changehistory]
