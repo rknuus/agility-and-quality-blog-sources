@@ -9,7 +9,7 @@ In <<SER407,SE Radio Episode 407>> Juval Löwy made some bold statements. So I g
 
 image::/images/post-images/noun_Reading_38463.svg[align="center"]
 
-His first major thesis is that functional decomposition is the mother of all software maintainability issues. A position taught by the <<SEI,Software Engineering Institute>>. The reasoning being that during the lifetime of a software system the structure of the software architecture makes adaptions to changing requirements harder and harder.
+His first major thesis is that functional decomposition is the mother of all software maintainability issues. A position backed by the <<SEI,Software Engineering Institute>>. The reasoning is that - by tightly coupling the structure to requirements - future requirement changes inevitably require structural changes.
 
 image::/images/post-images/noun_tired_1749591.svg[align="center"]
 
@@ -21,7 +21,7 @@ Agile approaches focus on delivering value early and often. Still, maintainabili
 
 image::/images/post-images/noun_modern art_875730.svg[align="center"]
 
-In link:../../../2020/03/01/a-software-quality-model.html[A Software Quality Model] I suggested to link concrete quality attributes of the software system to "fitness for change". But this still doesn't answer how to decompose your software. Curious about the solution suggested by Juwal Löwy? I'll publish another post, soon.
+In link:../../../2020/03/01/a-software-quality-model.html[A Software Quality Model] I suggested to link concrete quality attributes of the software system to "fitness for change". But this still doesn't answer how to decompose your software. Curious about the solution suggested by Juwal Löwy? link:../../../2020/07/29/volatility-based-decomposition-is-your-best-chance.html[Read on].
 
 [bibliography]
 == References
@@ -31,3 +31,10 @@ In link:../../../2020/03/01/a-software-quality-model.html[A Software Quality Mod
 - [[[SER407]]]: Software Engineering Radio https://www.se-radio.net/2020/04/episode-407-juval-lowy-on-righting-software/[Episode 407: Juval Löwy on Righting Software]
 - [[[SER396]]]: Software Engineering Radio https://www.se-radio.net/2020/01/episode-396-barry-oreilly-on-antifragile-architecture/r[Episode 396: Barry O’Reilly on Antifragile Architecture]
 - [[[SEI]]]: https://www.sei.cmu.edu/[Software Engineering Institute] of the Carnegie Mellon University
+
+[.changehistory]
+.change history:
+****
+improve wording and add link to next article of the series, 29-Jul-2020 +
+initial version, 05-Jul-2020
+****

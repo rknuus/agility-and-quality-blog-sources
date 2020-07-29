@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Isolate volatility and stability"
+date: 2020-08-30
+categories: [agility, architecture, book-review]
+---
+
+As quoted link:../../../2020/07/05/functional-decomposition-is-the-root-of-all-evil.html[before] functional decomposition usually leads to maintenance issues (<<Loe2020>>). So what's Juval Löwy's suggestion how to decompose an application, then? He argues that decomposition should encapsulate "areas of potential change" (volatility) to reduce ripple effects of volatility-driven changes on other components. An idea already published in 1972 by David Parnas (<<Parn1972>>).
+
+An example: If you would decompose the human body in functional manner you might well end up with components for running, blogging, sleeping etc. In reality body functions can be seen as services which are consumed in various conditions. E.g. your heart pumps blood. It takes care of related volatilities like your activity level, your health condition etc. So the human body hides complexity behind reasonable abstractions (<<LeM2012>>).
+
+Löwy observes that changing requirements generate huge costs in case of functional decomposition because multiple components tend to be affected. Volatility-based decomposition doesn't promise to constrain _all_ requirement changes to a single component, but it increases your chances. That's why the author believes it's your best shot. This sounds plausible for business applications, but might not apply equally well to other domains (e.g. typically affects multiple components unless you bundle logic into the UI component).
+
+Interestingly the authors of <<LeM2012,Managing Complexity of Information Systems>> tackle the problem from the other end and argue that the best approach to cope with changing requirements is to "identify things that do _not_ change" (<<LeM2012>>). This leads me to the conclusion that it probably doesn't matter which approach you take, as long as you focus on separating volatile from stable concerns.
+
+[bibliography]
+== References
+- [[[Loe2020]]]: https://rightingsoftware.org/[Righting Software] by Juval Löwy
+- [[[Parn1972]]]: On the Criteria to Be Used in Decomposing Systems into Modules by David Parnas, Communications of the ACM 15, no. 12 (1972)
+- [[[LeM2012]]]: Managing Complexity of Information Systems by Pirmin Lemberger and Médéric Morel
