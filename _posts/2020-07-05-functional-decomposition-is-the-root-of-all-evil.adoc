@@ -21,7 +21,7 @@ Agile approaches focus on delivering value early and often. Still, maintainabili
 
 image::/images/post-images/noun_modern art_875730.svg[align="center"]
 
-In link:../../../2020/03/01/a-software-quality-model.html[A Software Quality Model] I suggested to link concrete quality attributes of the software system to "fitness for change". But this still doesn't answer how to decompose your software. Curious about the solution suggested by Juwal Löwy? link:../../../2020/07/30/volatility-based-decomposition-is-your-best-chance.html[Read on].
+In link:../../../2020/03/01/a-software-quality-model.html[A Software Quality Model] I suggested to link concrete quality attributes of the software system to "fitness for change". But this still doesn't answer how to decompose your software. Curious about the solution suggested by Juwal Löwy? link:../../../2020/08/30/isolate-volatility-and-stability.html[Read on].
 
 [bibliography]
 == References
