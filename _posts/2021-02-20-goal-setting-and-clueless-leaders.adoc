@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Goal setting approach in the hands of clueless leaders"
+date: 2021-02-20
+categories: [agility, okr]
+---
+
+What's the point of a goal setting approach like link:../../../2020/01/01/introducing-okrs[OKRs] if the so-called leaders don't have a vision they want the organization to achieve?
