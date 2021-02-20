@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Treat CI/CD pipelines not just as code"
+date: 2021-02-21
+categories: [agility, quality, devops]
+---
+
+In a larger organization I recently observed several teams migrating automated build infrastructure to CI/CD pipelines using https://www.jenkins.io/[Jenkins] 2. But for reasons I might not fully understand, the pipeline code turned out to be complicated, non-reusable, and was tested manually. In short, it reminded me of software development practices of the past.
+
+image::/images/post-images/noun_Human Evolution_796941.svg[align="center"]
+
+Certainly, one of the reasons is the https://medium.com/the-devops-corner/the-evolution-of-ci-cd-763df723f05b[growing complexity] of CI/CD infrastructure requiring ever more skills. That's why it might make sense to delegate complexity to https://medium.com/the-devops-corner/should-you-build-your-own-ci-server-9439c77bf038[specialists]. But perhaps another cause is sloppy engineering. As if software engineers still treat pipelines like trivial build scripts, not fully acknowledging the consequences of https://en.wikipedia.org/wiki/Infrastructure_as_code[infrastructure as code].
+
+image::/images/post-images/noun_quality_1725381.svg[align="center"]
+
+So __if__ you opt to maintain your own CI/CD infrastructure I'm arguing to treat pipelines not just as code, but as production code. This means:
+
+- Design pipelines instead of making them up ad-hoc. Example: cleanly separate different configuration scopes component-specificfootnote:[assuming that one team maintains multiple components] (like installing component-specific build dependencies), team-specific (like where to publish build artifacts), and shared (e.g. if the entire organization uses the same static code analysis infrastructure).
+- If useful, share common functionality in https://hackernoon.com/simplifying-jenkinsfiles-c97cfee13f83[modules] and building blocks.
+- Keep pipelines simple e.g. by following the paradigm https://en.wikipedia.org/wiki/Convention_over_configuration[convention over configuration].
+- Cover essential complexity by https://github.com/jenkinsci/JenkinsPipelineUnit[tests].
+
+Simplicity might feel like a challenge. A sketch of an elegant pipeline design was posted on https://www.reddit.com/r/devops/comments/aa4qi7/simplify_your_jenkinsfiles/eedkqxl/?utm_source=reddit&utm_medium=web2x&context=3[reddit]. A more tangible solution for modular https://www.jenkins.io/[Jenkins] pipelines is https://github.com/griddynamics/mpl[MPL]. It supports reuse of pipelines and building blocks, overriding general building blocks by specialized ones, and it demonstrates how to test pipelines based on https://github.com/jenkinsci/JenkinsPipelineUnit[JenkinsPipelineUnit].
