@@ -6,27 +6,27 @@ categories: [agility, okr, howto]
 ---
 
 == Our first attempt
-Our first attempt to use OKRs in my organization was not particularly successful. We defined organization-wide OKRs, then we derived OKRs for sub-organizational structures, and we worked out many individual OKRs. But we stopped there. We didn't invest in measuring the _Key Results_. We didn't make all the OKRs transparent. And we didn't discuss them on a regular basis.
+Our first attempt to use link:../../../2020/01/01/introducing-okrs[OKRs] in my organization was not particularly successful. We defined organization-wide OKRs, then we derived OKRs for sub-organizational structures, and we worked out many individual OKRs. But we stopped there. We didn't invest in measuring the _Key Results_. We didn't make all the OKRs transparent. And we didn't discuss them on a regular basis.
 
 == What we learned for our second attempt
 Our second attempt is based on several concrete ideas, mainly extracted from  <<whatmatters,Measure What Matters>>.
 
 === Start small
-Going full scale while making the first steps with a new tool like OKRs is like hosting a dinner party for 50 prominent guests without having cooked for your family a single time.
+Going full scale while making the first steps with a new tool like link:../../../2020/01/01/introducing-okrs[OKRs] is like hosting a dinner party for 50 prominent guests without having cooked for your family a single time.
 
 image::/images/post-images/noun_sprout_445566.svg[align="center"]
 
-That's why it makes sense to kick-off a Community of Practice (CoP) built of a dozen or so volunteers. Let this CoP experiement with ideas and exercise the application of OKRs. Meet on a regular basis, exchange experiences and build your set of good practices you want to share with the entire organization once you scale up like an <<create-a-checklist,OKR checklist>>.
+That's why it makes sense to kick-off a Community of Practice (CoP) built of a dozen or so volunteers. Let this CoP experiement with ideas and exercise the application of link:../../../2020/01/01/introducing-okrs[OKRs]. Meet on a regular basis, exchange experiences and build your set of good practices you want to share with the entire organization once you scale up like an <<create-a-checklist,OKR checklist>>.
 
 === Nominate a shepherd
 Defining goals can be easy. Specifying measurements can be trickier. But the real challenge is to follow through, to run the measurements, to review them, and to keep the up to date.
 
 image::/images/post-images/noun_shepherd_1974919.svg[align="center"]
 
-That's why it immensely helps to have someone taking care of nudging everybody to keep timelines and to keep track of measurements. I like to think of the first measurement as the first _Initiative_. The shepherd proactively approaches people to share their OKR ideas, provides feedback how to improve OKRs (e.g. to balance quantitative with qualitative _Key Results_), and if necessary sanctions laggards.
+That's why it immensely helps to have someone taking care of nudging everybody to keep timelines and to keep track of measurements. I like to think of the first measurement as the first _Initiative_. The shepherd proactively approaches people to share their link:../../../2020/01/01/introducing-okrs[OKRs] ideas, provides feedback how to improve OKRs (e.g. to balance quantitative with qualitative _Key Results_), and if necessary sanctions laggards.
 
 === Create a checklist
-Changes are, your first OKRs are overly ambitious. Two reasons for this are:
+Chances are, your first link:../../../2020/01/01/introducing-okrs[OKRs] are overly ambitious. Two reasons for this are:
 
 - Someone points out that doing a step towards the right direction is already an achievement.
 - Others struggle to think out of the box, which becomes necessity when being ambitious.
@@ -38,7 +38,7 @@ image::/images/post-images/noun_Checklist_450368.svg[align="center"]
 That's why it makes sense to create a checklist and apply it to your OKRs, gradually adapting the checklist to your needs. <<my-organizations-okr-checklist>> might provide a starting point.
 
 === Optimize transparency, minimize hurdles
-Transparency trumps. If you want OKRs to be discussed by most organization members at least on a weakly basis they need to be easily accessible. And simple to manage. Even though the simplest possible solution to keep track of OKRs is a central spreadsheet, invite the CoP to evaluate different OKR tools.
+Transparency trumps. If you want link:../../../2020/01/01/introducing-okrs[OKRs] to be discussed by most organization members at least on a weakly basis they need to be easily accessible. And simple to manage. Even though the simplest possible solution to keep track of OKRs is a central spreadsheet, invite the CoP to evaluate different OKR tools.
 
 [.text-center]
 image:/images/post-images/noun_mirror_1579392.svg[] image:/images/post-images/noun_barrier_901263.svg[]
@@ -46,7 +46,7 @@ image:/images/post-images/noun_mirror_1579392.svg[] image:/images/post-images/no
 Our tool evaluation criteria were mostly usability: Does the tool provide a good overview of all OKRs and make it simple to link them? How easy is it to enter and update OKRs? Can you import _Key Results_ measurements from a spreadsheat or update them by API calls?
 
 === Celebrate success
-Whenever someone makes significant progress this deserves public appreciation. That's why it makes sense to test some ideas how to celebrate success before scaling OKRs to the entire organization.
+Whenever someone makes significant progress this deserves public appreciation. That's why it makes sense to test some ideas how to celebrate success before scaling link:../../../2020/01/01/introducing-okrs[OKRs] to the entire organization.
 
 image::/images/post-images/noun_celebrate_2788745.svg[align="center"]
 
@@ -118,3 +118,10 @@ Full power over accomplishing it.
 | time-bound | Does it have a start & end date?
 | right amount | 1+
 |===
+
+[.changehistory]
+.change history:
+****
+fix typo and cross-reference OKR introduction, 20-Feb-2021 +
+initial version, 22-Mar-2020
+****
